@@ -9,17 +9,17 @@ heroText: 互联网小白
 tagline: 盛年不重来，一日难再晨
 bgImage: https://img.newzone.top/home-bg-1.jpg
 heroFullScreen: false
-#projects:
-#  - icon: project
-#    name: 项目名称
-#    desc: 项目详细描述
-#    link: https://你的项目链接
-#
-#  - icon: link
-#    name: 链接名称
-#    desc: 链接详细描述
-#    link: https://链接地址
-#
+projects:
+  - icon: project
+    name: Warehouse Management System
+    desc: 信息管理系统
+    link: https://github.com/Buterr04/WarehouseManagementSystem
+
+  - icon: link
+    name: LKH算法
+    desc: 用于解决TSP问题的算法改进
+    link: https://github.com/Buterr04/LKH-3opt-TSP
+    
 #  - icon: book
 #    name: 书籍名称
 #    desc: 书籍详细描述
