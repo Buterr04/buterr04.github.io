@@ -70,13 +70,13 @@ export default hopeTheme({
   // 主题功能选项：https://theme-hope.vuejs.press/zh/config/theme/feature.html
   blog: {
     articleInfo: ["Date", "PageView", "Category", "Tag", "ReadingTime"],
-    name: "清顺",
+    name: "Buterr",
     avatar: "/avatar_self.webp",
     description: "迷信新工具，热衷于研究开源软件、心理学理论，定期分享探索成果",
     intro: "/intro.html",
     roundAvatar: true,
     medias: {
-      GitHub: "https://github.com/rockbenben",
+      GitHub: "https://github.com/Buterr04",
       Zhihu: "https://www.zhihu.com/people/qingwhat",
       少数派: ["https://sspai.com/u/zqj05i4v/posts", "./docs/.vuepress/icons/sspai.svg"],
       Wechat: "https://img.newzone.top/wechat.svg",
