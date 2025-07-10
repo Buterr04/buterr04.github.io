@@ -4,10 +4,6 @@ import { sidebar } from "vuepress-theme-hope";
 // https://fontawesome.com/search?m=free&o=r
 export default sidebar({
   "": [
-    "/DailyRoutine",
-    "/Fitness",
-    // 读书笔记架构更换到 docsify，不能使用相对链接
-    { text: "读书笔记", icon: "fa-brands fa-readme", link: "https://newzone.top/reading/" },
     // 指定显示页面
     {
       text: "📒 学习笔记",
@@ -23,71 +19,47 @@ export default sidebar({
           collapsible: true,
           children: ["C.md","Ctext.md"],
         },
+         {
+          text: "算法与优化",
+          icon: "fa-solid fa-brain",
+          children: ["GWO.md", "SLP.md"],
+        },
+        {
+          text: "前端相关",
+          icon: "fa-brands fa-vuejs",
+          children: ["Vue.md", "HTML_CSS.md"],
+        },
       ],
     },
     {
-      text: "🌐 页面开发",
-      icon: "",
-      prefix: "/web/",
-      link: "",
-      collapsible: true,
-      children: "structure",
-    },
-    {
-      text: "🏗️ 网站部署",
-      icon: "",
-      prefix: "/deploy/",
-      link: "",
+      text: "🧪 技术实践",
+      icon: "fa-solid fa-flask",
+      prefix: "/projects/",
       collapsible: true,
       children: [
-        "Static.md",
-        "CloudServices.md",
-        "VPS.md",
-        {
-          text: "部署工具",
-          icon: "fa-brands fa-windows",
-          collapsible: true,
-          children: ["GitHub.md", "Cloudflare.md", "MySQL.md", "DNS.md"],
-        },
+        "SpringToSwift.md", // 项目迁移记录
+        "WarehouseSim.md",  // 仓储仿真项目
       ],
     },
     {
-      text: "🔡 代码编程",
-      icon: "",
-      prefix: "/code/",
+      text: "🛠️ 工具与配置",
+      icon: "fa-solid fa-screwdriver-wrench",
+      prefix: "/tools/",
       collapsible: true,
       children: [
-        "README.md",
-        {
-          text: "Basic",
-          icon: "fa-solid fa-cube",
-          collapsible: true,
-          children: ["Markdown.md", "Electron.md", "AutoHotkey.md", "Regex.md"],
-        },
-        {
-          text: "FrondEnd",
-          icon: "fa-solid fa-object-group",
-          collapsible: true,
-          children: ["Vue.md", "HTML.md", "Javascript.md", "Python.md"],
-        },
+        "macSetup.md", // Mac 软件工具
+        "VSCode.md",   // VSCode 插件设置
       ],
     },
     {
-      text: "🛖 生活记录",
-      icon: "",
-      prefix: "/family/",
+      text: "💬 随笔与反思",
+      icon: "fa-solid fa-pen-nib",
+      prefix: "/thoughts/",
       collapsible: true,
-      children: "structure",
-    },
-    {
-      text: "博客文章",
-      icon: "fa-solid fa-feather-pointed",
-      prefix: "/_posts/",
-      link: "/blog",
-      collapsible: true,
-      children: "structure",
+      children: [
+        "startBlog.md", // 为什么开始写博客
+        "thinking.md",  // 最近思考
+      ],
     },
   ],
-  // 专题区（独立侧边栏）
-  "/apps/topic/": "structure",
 });
