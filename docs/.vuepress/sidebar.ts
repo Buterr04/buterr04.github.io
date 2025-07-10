@@ -18,6 +18,7 @@ export default sidebar({
       children: [
         "Applist.md",
         "toolbox.md",
+        "C.md",
         {
           text: "其他",
           icon: "fa-solid fa-code-compare",
