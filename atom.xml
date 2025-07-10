@@ -4,34 +4,38 @@
   <title>Buterr的blog</title>
   <subtitle>这里是Buterr的个人博客，记录学习和生活点滴</subtitle>
   <icon>https://newzone.top/favicon.ico</icon>
-  <updated>2025-07-10T02:19:33.366Z</updated>
+  <updated>2025-07-10T02:44:20.234Z</updated>
   <generator>@vuepress/plugin-feed</generator>
   <link rel="self" href="https://newzone.top/atom.xml"/>
   <link rel="alternate" href="https://newzone.top/"/>
-  <category term="工具"/>
-  <category term="使用指南"/>
+  <category term="学习笔记"/>
+  <contributor>
+    <name>Buterr</name>
+  </contributor>
   <entry>
-    <title type="text">博客文章样例2</title>
-    <id>https://newzone.top/posts/2024-03-02-blog_example2.html</id>
-    <link href="https://newzone.top/posts/2024-03-02-blog_example2.html"/>
-    <updated>2024-04-27T15:57:42.000Z</updated>
-    <summary type="html"><![CDATA[<p>博客文章内容，支持 Markdown 和 HTML 语言。</p>
-]]></summary>
-    <content type="html"><![CDATA[<p>博客文章内容，支持 Markdown 和 HTML 语言。</p>
-]]></content>
-    <category term="工具"/>
-    <published>2024-03-02T00:00:00.000Z</published>
-  </entry>
-  <entry>
-    <title type="text">博客文章样例</title>
-    <id>https://newzone.top/posts/2024-03-01-blog_example.html</id>
-    <link href="https://newzone.top/posts/2024-03-01-blog_example.html"/>
-    <updated>2024-04-27T15:57:42.000Z</updated>
-    <summary type="html"><![CDATA[<p>博客文章内容，支持 Markdown 和 HTML 语言。</p>
-]]></summary>
-    <content type="html"><![CDATA[<p>博客文章内容，支持 Markdown 和 HTML 语言。</p>
-]]></content>
-    <category term="使用指南"/>
-    <published>2024-03-01T00:00:00.000Z</published>
+    <title type="text">📦 数码产品进销存管理系统：从项目立项到功能落地的完整实践</title>
+    <id>https://newzone.top/projects/Warehouse.html</id>
+    <link href="https://newzone.top/projects/Warehouse.html"/>
+    <updated>2025-07-10T02:43:17.000Z</updated>
+    <summary type="html"><![CDATA[<hr>
+<h2>🧭 一、项目背景</h2>
+<p>在数码产品零售行业中，商品种类繁多、库存流转频繁、人工记录易错，管理难度极大。作为一家线下零售商，传统的手工管理方式已经难以满足日常运营的效率与准确性要求。因此，本项目旨在开发一套<strong>集采购、销售、库存管理于一体的进销存系统（WMS）</strong>，实现企业信息化转型，提升运营效率。</p>
+<hr>
+<h2>🏗️ 二、系统目标与核心设计理念</h2>
+<p>系统目标明确：</p>
+<ul>
+<li>覆盖进销存全流程：采购申请→采购订单→入库→销售→出库→发货；</li>
+<li>实现权限分离：支持管理员、销售员、库管员、采购员四类角色协同操作；</li>
+<li>打造可视化、可维护、可扩展的轻量化管理平台。</li>
+</ul>]]></summary>
+    <author>
+      <name>Buterr</name>
+    </author>
+    <category term="学习笔记"/>
+    <contributor>
+      <name>Buterr</name>
+    </contributor>
+    <published>2025-05-19T00:00:00.000Z</published>
+    <rights>Buterr</rights>
   </entry>
 </feed>
