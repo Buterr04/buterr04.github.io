@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="https://newzone.top/rss.xsl"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <channel>
     <atom:link href="https://newzone.top/rss.xml" rel="self" type="application/rss+xml"/>
     <title>Buterr的blog</title>
     <link>https://newzone.top/</link>
     <description>这里是Buterr的个人博客，记录学习和生活点滴</description>
     <language>zh-CN</language>
-    <pubDate>Thu, 10 Jul 2025 02:44:20 GMT</pubDate>
-    <lastBuildDate>Thu, 10 Jul 2025 02:44:20 GMT</lastBuildDate>
+    <pubDate>Thu, 10 Jul 2025 14:54:08 GMT</pubDate>
+    <lastBuildDate>Thu, 10 Jul 2025 14:54:08 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>学习笔记</category>
@@ -19,6 +19,28 @@
       <description>🧭 一、项目背景 在数码产品零售行业中，商品种类繁多、库存流转频繁、人工记录易错，管理难度极大。作为一家线下零售商，传统的手工管理方式已经难以满足日常运营的效率与准确性要求。因此，本项目旨在开发一套集采购、销售、库存管理于一体的进销存系统（WMS），实现企业信息化转型，提升运营效率。 🏗️ 二、系统目标与核心设计理念 系统目标明确： 覆盖进销存全流...</description>
       <category>学习笔记</category>
       <pubDate>Mon, 19 May 2025 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Redis（Remote Dictionary Server）</title>
+      <link>https://newzone.top/tools/redis.html</link>
+      <guid>https://newzone.top/tools/redis.html</guid>
+      <source url="https://newzone.top/rss.xml">Redis（Remote Dictionary Server）</source>
+      <description>Redis（Remote Dictionary Server） Redis是一个开源的内存数据库，遵守 BSD 协议，它提供了一个高性能的键值（key-value）存储系统，常用于缓存、消息队列、会话存储等应用场景。通常用于处理高并发操作 一、为什么选择 Redis？ 相比传统数据库或文件系统，Redis 有以下优势： 🚀 超快的访问速度：所有数据存...</description>
+      <pubDate>Thu, 10 Jul 2025 14:53:13 GMT</pubDate>
+      <content:encoded><![CDATA[
+<blockquote>
+<p>Redis是一个开源的内存数据库，遵守 BSD 协议，它提供了一个高性能的键值（key-value）存储系统，常用于缓存、消息队列、会话存储等应用场景。通常用于处理高并发操作</p>
+</blockquote>
+<h2>一、为什么选择 Redis？</h2>
+<p>相比传统数据库或文件系统，Redis 有以下优势：</p>
+<ul>
+<li>🚀 <strong>超快的访问速度</strong>：所有数据存储于内存中，读写速度可达十万级 QPS。</li>
+<li>📦 <strong>丰富的数据结构</strong>：支持字符串、列表、集合、有序集合、哈希等多种结构。</li>
+<li>💾 <strong>支持持久化</strong>：通过 RDB、AOF 两种方式将内存快照保存到磁盘。</li>
+<li>📡 <strong>内置高可用机制</strong>：支持主从复制、哨兵、集群部署。</li>
+<li>🧠 <strong>广泛应用场景</strong>：从缓存到排行榜、分布式锁等，都能胜任。</li>
+</ul>
+]]></content:encoded>
     </item>
   </channel>
 </rss>

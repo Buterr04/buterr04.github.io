@@ -4,7 +4,7 @@
   <title>Buterr的blog</title>
   <subtitle>这里是Buterr的个人博客，记录学习和生活点滴</subtitle>
   <icon>https://newzone.top/favicon.ico</icon>
-  <updated>2025-07-10T02:44:20.234Z</updated>
+  <updated>2025-07-10T14:54:08.405Z</updated>
   <generator>@vuepress/plugin-feed</generator>
   <link rel="self" href="https://newzone.top/atom.xml"/>
   <link rel="alternate" href="https://newzone.top/"/>
@@ -37,5 +37,39 @@
     </contributor>
     <published>2025-05-19T00:00:00.000Z</published>
     <rights>Buterr</rights>
+  </entry>
+  <entry>
+    <title type="text">Redis（Remote Dictionary Server）</title>
+    <id>https://newzone.top/tools/redis.html</id>
+    <link href="https://newzone.top/tools/redis.html"/>
+    <updated>2025-07-10T14:53:13.000Z</updated>
+    <summary type="html"><![CDATA[
+<blockquote>
+<p>Redis是一个开源的内存数据库，遵守 BSD 协议，它提供了一个高性能的键值（key-value）存储系统，常用于缓存、消息队列、会话存储等应用场景。通常用于处理高并发操作</p>
+</blockquote>
+<h2>一、为什么选择 Redis？</h2>
+<p>相比传统数据库或文件系统，Redis 有以下优势：</p>
+<ul>
+<li>🚀 <strong>超快的访问速度</strong>：所有数据存储于内存中，读写速度可达十万级 QPS。</li>
+<li>📦 <strong>丰富的数据结构</strong>：支持字符串、列表、集合、有序集合、哈希等多种结构。</li>
+<li>💾 <strong>支持持久化</strong>：通过 RDB、AOF 两种方式将内存快照保存到磁盘。</li>
+<li>📡 <strong>内置高可用机制</strong>：支持主从复制、哨兵、集群部署。</li>
+<li>🧠 <strong>广泛应用场景</strong>：从缓存到排行榜、分布式锁等，都能胜任。</li>
+</ul>]]></summary>
+    <content type="html"><![CDATA[
+<blockquote>
+<p>Redis是一个开源的内存数据库，遵守 BSD 协议，它提供了一个高性能的键值（key-value）存储系统，常用于缓存、消息队列、会话存储等应用场景。通常用于处理高并发操作</p>
+</blockquote>
+<h2>一、为什么选择 Redis？</h2>
+<p>相比传统数据库或文件系统，Redis 有以下优势：</p>
+<ul>
+<li>🚀 <strong>超快的访问速度</strong>：所有数据存储于内存中，读写速度可达十万级 QPS。</li>
+<li>📦 <strong>丰富的数据结构</strong>：支持字符串、列表、集合、有序集合、哈希等多种结构。</li>
+<li>💾 <strong>支持持久化</strong>：通过 RDB、AOF 两种方式将内存快照保存到磁盘。</li>
+<li>📡 <strong>内置高可用机制</strong>：支持主从复制、哨兵、集群部署。</li>
+<li>🧠 <strong>广泛应用场景</strong>：从缓存到排行榜、分布式锁等，都能胜任。</li>
+</ul>
+]]></content>
+    <published>2025-07-10T14:53:13.000Z</published>
   </entry>
 </feed>
