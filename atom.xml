@@ -4,7 +4,7 @@
   <title>Buterr的blog</title>
   <subtitle>开源工具、效率方法、心理学探索的自我提升笔记，记录并输出一切能让自己提升的知识。</subtitle>
   <icon>https://newzone.top/favicon.ico</icon>
-  <updated>2025-07-09T14:46:11.096Z</updated>
+  <updated>2025-07-10T01:34:45.689Z</updated>
   <generator>@vuepress/plugin-feed</generator>
   <link rel="self" href="https://newzone.top/atom.xml"/>
   <link rel="alternate" href="https://newzone.top/"/>
@@ -33,5 +33,33 @@
 ]]></content>
     <category term="使用指南"/>
     <published>2024-03-01T00:00:00.000Z</published>
+  </entry>
+  <entry>
+    <title type="text">循环</title>
+    <id>https://newzone.top/apps/C.html</id>
+    <link href="https://newzone.top/apps/C.html"/>
+    <updated>2025-07-10T01:27:34.000Z</updated>
+    <summary type="html"><![CDATA[
+<h2>for循环</h2>
+<div class="language-c" data-ext="c" data-title="c"><pre class="language-c"><code><span class="token keyword">for</span><span class="token punctuation">(</span>表达式<span class="token number">1</span>；表达式<span class="token number">2</span>；表达式<span class="token number">3</span><span class="token punctuation">)</span> 
+<span class="token punctuation">{</span>
+	语句
+<span class="token punctuation">}</span>
+</code></pre></div>]]></summary>
+    <content type="html"><![CDATA[
+<h2>for循环</h2>
+<div class="language-c" data-ext="c" data-title="c"><pre class="language-c"><code><span class="token keyword">for</span><span class="token punctuation">(</span>表达式<span class="token number">1</span>；表达式<span class="token number">2</span>；表达式<span class="token number">3</span><span class="token punctuation">)</span> 
+<span class="token punctuation">{</span>
+	语句
+<span class="token punctuation">}</span>
+</code></pre></div><p>它的执行过程如下</p>
+<p><strong>(1)</strong> 先求解表达式1</p>
+<p><strong>(2)</strong> <strong>求解表达式2</strong>，若其值为真(值为非0)，则执行for语句中指定的内嵌语句，然后执行下面<strong>第(3)步</strong>。若为假(值为0)，则结束循环，转到<strong>第(5)步</strong></p>
+<p><strong>(3)</strong> 求解<strong>表达式3</strong></p>
+<p><strong>(4)</strong> 转回上面<strong>第(2)步</strong>继续执行</p>
+<p><strong>(5)</strong> 循环结束</p>
+<p><code>for(循环变量赋初值；循环条件；循环变量增值)</code></p>
+]]></content>
+    <published>2025-07-10T01:27:34.000Z</published>
   </entry>
 </feed>
