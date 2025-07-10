@@ -49,6 +49,8 @@ export default sidebar({
       children: [
         "macSetup.md", // Mac 软件工具
         "VSCode.md",   // VSCode 插件设置
+        "redis.md",  // Redis 教程
+        "go.md", // Go语言 
       ],
     },
     {
