@@ -38,7 +38,7 @@ export default sidebar({
       collapsible: true,
       children: [
         "SpringToSwift.md", // 项目迁移记录
-        "WarehouseSim.md",  // 仓储仿真项目
+        "Warehouse.md",  // 仓储仿真项目
       ],
     },
     {
