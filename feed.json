@@ -3,7 +3,7 @@
   "title": "Buterr的blog",
   "home_page_url": "https://newzone.top/",
   "feed_url": "https://newzone.top/feed.json",
-  "description": "开源工具、效率方法、心理学探索的自我提升笔记，记录并输出一切能让自己提升的知识。",
+  "description": "这里是Buterr的个人博客，记录学习和生活点滴",
   "favicon": "https://newzone.top/favicon.ico",
   "items": [
     {
@@ -31,17 +31,6 @@
       "tags": [
         "使用指南"
       ]
-    },
-    {
-      "title": "循环",
-      "url": "https://newzone.top/apps/C.html",
-      "id": "https://newzone.top/apps/C.html",
-      "summary": "循环 for循环 它的执行过程如下 (1) 先求解表达式1 (2) 求解表达式2，若其值为真(值为非0)，则执行for语句中指定的内嵌语句，然后执行下面第(3)步。若为假(值为0)，则结束循环，转到第(5)步 (3) 求解表达式3 (4) 转回上面第(2)步继续执行 (5) 循环结束 for(循环变量赋初值；循环条件；循环变量增值) 数组 定义一个一维...",
-      "content_html": "\n<h2>for循环</h2>\n<div class=\"language-c\" data-ext=\"c\" data-title=\"c\"><pre class=\"language-c\"><code><span class=\"token keyword\">for</span><span class=\"token punctuation\">(</span>表达式<span class=\"token number\">1</span>；表达式<span class=\"token number\">2</span>；表达式<span class=\"token number\">3</span><span class=\"token punctuation\">)</span> \n<span class=\"token punctuation\">{</span>\n\t语句\n<span class=\"token punctuation\">}</span>\n</code></pre></div><p>它的执行过程如下</p>\n<p><strong>(1)</strong> 先求解表达式1</p>\n<p><strong>(2)</strong> <strong>求解表达式2</strong>，若其值为真(值为非0)，则执行for语句中指定的内嵌语句，然后执行下面<strong>第(3)步</strong>。若为假(值为0)，则结束循环，转到<strong>第(5)步</strong></p>\n<p><strong>(3)</strong> 求解<strong>表达式3</strong></p>\n<p><strong>(4)</strong> 转回上面<strong>第(2)步</strong>继续执行</p>\n<p><strong>(5)</strong> 循环结束</p>\n<p><code>for(循环变量赋初值；循环条件；循环变量增值)</code></p>\n",
-      "date_published": "2025-07-10T01:27:34.000Z",
-      "date_modified": "2025-07-10T01:27:34.000Z",
-      "authors": [],
-      "tags": []
     }
   ]
 }

@@ -4,10 +4,10 @@
     <atom:link href="https://newzone.top/rss.xml" rel="self" type="application/rss+xml"/>
     <title>Buterr的blog</title>
     <link>https://newzone.top/</link>
-    <description>开源工具、效率方法、心理学探索的自我提升笔记，记录并输出一切能让自己提升的知识。</description>
+    <description>这里是Buterr的个人博客，记录学习和生活点滴</description>
     <language>zh-CN</language>
-    <pubDate>Thu, 10 Jul 2025 01:34:45 GMT</pubDate>
-    <lastBuildDate>Thu, 10 Jul 2025 01:34:45 GMT</lastBuildDate>
+    <pubDate>Thu, 10 Jul 2025 02:06:00 GMT</pubDate>
+    <lastBuildDate>Thu, 10 Jul 2025 02:06:00 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>工具</category>
@@ -32,28 +32,6 @@
       <category>使用指南</category>
       <pubDate>Fri, 01 Mar 2024 00:00:00 GMT</pubDate>
       <content:encoded><![CDATA[<p>博客文章内容，支持 Markdown 和 HTML 语言。</p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>循环</title>
-      <link>https://newzone.top/apps/C.html</link>
-      <guid>https://newzone.top/apps/C.html</guid>
-      <source url="https://newzone.top/rss.xml">循环</source>
-      <description>循环 for循环 它的执行过程如下 (1) 先求解表达式1 (2) 求解表达式2，若其值为真(值为非0)，则执行for语句中指定的内嵌语句，然后执行下面第(3)步。若为假(值为0)，则结束循环，转到第(5)步 (3) 求解表达式3 (4) 转回上面第(2)步继续执行 (5) 循环结束 for(循环变量赋初值；循环条件；循环变量增值) 数组 定义一个一维...</description>
-      <pubDate>Thu, 10 Jul 2025 01:27:34 GMT</pubDate>
-      <content:encoded><![CDATA[
-<h2>for循环</h2>
-<div class="language-c" data-ext="c" data-title="c"><pre class="language-c"><code><span class="token keyword">for</span><span class="token punctuation">(</span>表达式<span class="token number">1</span>；表达式<span class="token number">2</span>；表达式<span class="token number">3</span><span class="token punctuation">)</span> 
-<span class="token punctuation">{</span>
-	语句
-<span class="token punctuation">}</span>
-</code></pre></div><p>它的执行过程如下</p>
-<p><strong>(1)</strong> 先求解表达式1</p>
-<p><strong>(2)</strong> <strong>求解表达式2</strong>，若其值为真(值为非0)，则执行for语句中指定的内嵌语句，然后执行下面<strong>第(3)步</strong>。若为假(值为0)，则结束循环，转到<strong>第(5)步</strong></p>
-<p><strong>(3)</strong> 求解<strong>表达式3</strong></p>
-<p><strong>(4)</strong> 转回上面<strong>第(2)步</strong>继续执行</p>
-<p><strong>(5)</strong> 循环结束</p>
-<p><code>for(循环变量赋初值；循环条件；循环变量增值)</code></p>
 ]]></content:encoded>
     </item>
   </channel>
