@@ -10,20 +10,18 @@ export default sidebar({
     { text: "读书笔记", icon: "fa-brands fa-readme", link: "https://newzone.top/reading/" },
     // 指定显示页面
     {
-      text: "🧰 应用手册",
+      text: "📒 学习笔记",
       icon: "",
-      prefix: "/apps/",
+      prefix: "/notes/",
       link: "",
       collapsible: true,
       children: [
-        "Applist.md",
-        "toolbox.md",
-        "C.md",
+        "Java.md",
         {
-          text: "其他",
+          text: "C语言",
           icon: "fa-solid fa-code-compare",
           collapsible: true,
-          children: ["design.md"],
+          children: ["C.md","Ctext.md"],
         },
       ],
     },

@@ -4,7 +4,7 @@ title: Buterr的blog
 icon: fa-solid fa-book-open-reader
 ---
 
-> ？Buterr的blog
+> Buterr的blog
 
 ### Hi there 👋
 

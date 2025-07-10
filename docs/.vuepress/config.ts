@@ -13,7 +13,7 @@ export default defineUserConfig({
   // 网站标题
   title: "Buterr的blog",
   // 网站描述
-  description: "开源工具、效率方法、心理学探索的自我提升笔记，记录并输出一切能让自己提升的知识。",
+  description: "这里是Buterr的个人博客，记录学习和生活点滴",
 
   theme,
   // 是否开启页面预拉取，如果服务器宽带足够，可改为 true，会提升其他页面加载速度
