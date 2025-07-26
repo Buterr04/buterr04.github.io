@@ -33,17 +33,18 @@ export default sidebar({
     },
     {
       text: "🧪 技术实践",
-      icon: "fa-solid fa-flask",
+      icon: "",
       prefix: "/projects/",
       collapsible: true,
       children: [
         "SpringToSwift.md", // 项目迁移记录
         "Warehouse.md",  // 仓储仿真项目
+        "Coze.md", // Coze Studio 扣子开源项目本地部署
       ],
     },
     {
       text: "🛠️ 工具与配置",
-      icon: "fa-solid fa-screwdriver-wrench",
+      icon: "",
       prefix: "/tools/",
       collapsible: true,
       children: [
@@ -55,7 +56,7 @@ export default sidebar({
     },
     {
       text: "💬 随笔与反思",
-      icon: "fa-solid fa-pen-nib",
+      icon: "",
       prefix: "/thoughts/",
       collapsible: true,
       children: [
