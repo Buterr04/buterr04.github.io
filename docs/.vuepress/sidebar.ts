@@ -15,18 +15,18 @@ export default sidebar({
         "Java.md",
         {
           text: "C语言",
-          icon: "fa-solid fa-code-compare",
+          icon: "",
           collapsible: true,
           children: ["C.md","Ctext.md"],
         },
          {
           text: "算法与优化",
-          icon: "fa-solid fa-brain",
+          icon: "",
           children: ["GWO.md", "SLP.md"],
         },
         {
           text: "前端相关",
-          icon: "fa-brands fa-vuejs",
+          icon: "",
           children: ["Vue.md", "HTML_CSS.md"],
         },
       ],
