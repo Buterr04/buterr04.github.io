@@ -72,17 +72,17 @@ export default hopeTheme({
     articleInfo: ["Date", "PageView", "Category", "Tag", "ReadingTime"],
     name: "Buterr",
     avatar: "/avatar_self.webp",
-    description: "迷信新工具，热衷于研究开源软件、心理学理论，定期分享探索成果",
+    description: "学生，热爱数据科学与编程，喜欢折腾各种新技术",
     intro: "/intro.html",
     roundAvatar: true,
     medias: {
       GitHub: "https://github.com/Buterr04",
-      Zhihu: "https://www.zhihu.com/people/qingwhat",
-      少数派: ["https://sspai.com/u/zqj05i4v/posts", "./docs/.vuepress/icons/sspai.svg"],
-      Wechat: "https://img.newzone.top/wechat.svg",
-      Email: "mailto:learndata@newzone.top",
-      Discord: "https://discord.gg/PZTQfJ4GjX",
-      RSS: "/rss.xml",
+      //Zhihu: "https://www.zhihu.com/people/qingwhat",
+      //少数派: ["https://sspai.com/u/zqj05i4v/posts", "./docs/.vuepress/icons/sspai.svg"],
+      //Wechat: "https://img.newzone.top/wechat.svg",
+      //Email: "mailto:learndata@newzone.top",
+      //Discord: "https://discord.gg/PZTQfJ4GjX",
+      //RSS: "/rss.xml",
     },
   },
 
@@ -130,10 +130,10 @@ export default hopeTheme({
 
       // Giscus
       provider: "Giscus",
-      repo: "rockbenben/LearnData",
-      repoId: "R_kgDOHdfk6Q",
+      //repo: "rockbenben/LearnData",
+      //repoId: "R_kgDOHdfk6Q",
       category: "Comments",
-      categoryId: "DIC_kwDOHdfk6c4CQYNn",
+      //categoryId: "DIC_kwDOHdfk6c4CQYNn",
     },
 
     // 组件库

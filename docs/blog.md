@@ -6,7 +6,7 @@ icon: fa-solid fa-house-crack
 title: 互联网小白
 #heroImage: /logo.svg
 heroText: 互联网小白
-tagline: 盛年不重来，一日难再晨
+tagline: 记录学习点滴，分享技术经验
 bgImage: https://img.newzone.top/home-bg-1.jpg
 heroFullScreen: false
 projects:

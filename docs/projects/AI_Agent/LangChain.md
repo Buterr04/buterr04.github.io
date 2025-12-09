@@ -24,9 +24,9 @@ tag:
   - LangChain
   - 程序设计
 # 此页面会在文章列表置顶
-sticky: true
+sticky: false
 # 此页面会出现在文章收藏中
-star: true
+star: false
 
 # 你可以自定义页脚
 footer: BUPT毕业设计附属文档
