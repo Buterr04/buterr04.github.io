@@ -6,8 +6,8 @@
     <link>https://newzone.top/</link>
     <description>这里是Buterr的个人博客，记录学习和生活点滴</description>
     <language>zh-CN</language>
-    <pubDate>Sat, 26 Jul 2025 05:13:18 GMT</pubDate>
-    <lastBuildDate>Sat, 26 Jul 2025 05:13:18 GMT</lastBuildDate>
+    <pubDate>Tue, 09 Dec 2025 06:15:39 GMT</pubDate>
+    <lastBuildDate>Tue, 09 Dec 2025 06:15:39 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>技术实践</category>
@@ -88,6 +88,26 @@ docker compose --profile '*' up -d
       <pubDate>Mon, 19 May 2025 00:00:00 GMT</pubDate>
     </item>
     <item>
+      <title>Flutter</title>
+      <link>https://newzone.top/tools/flutter.html</link>
+      <guid>https://newzone.top/tools/flutter.html</guid>
+      <source url="https://newzone.top/rss.xml">Flutter</source>
+      <description>Flutter Flutter是Google开发的一款软件包，能够构建高性能、高保真的移动应用。在更新之后可以支持Web、桌面应用和Android以及iOS设备，能够实现跨平台开发。 安装Flutter 下载Flutter SDK：访问Flutter官网下载适合你操作系统的Flutter SDK。 解压缩下载的文件到你希望安装Flutter的目录。 将...</description>
+      <pubDate>Tue, 09 Dec 2025 06:14:39 GMT</pubDate>
+      <content:encoded><![CDATA[
+<blockquote>
+<p>Flutter是Google开发的一款软件包，能够构建高性能、高保真的移动应用。在更新之后可以支持Web、桌面应用和Android以及iOS设备，能够实现跨平台开发。</p>
+</blockquote>
+<h2>安装Flutter</h2>
+<ol>
+<li>下载Flutter SDK：访问<a href="https://flutter.dev/docs/get-started/install" target="_blank" rel="noopener noreferrer">Flutter官网</a>下载适合你操作系统的Flutter SDK。</li>
+<li>解压缩下载的文件到你希望安装Flutter的目录。</li>
+<li>将Flutter的<code>bin</code>目录添加到你的系统环境变量中，以便在终端或命令行中可以直接使用<code>flutter</code>命令。</li>
+<li>在终端或命令行中运行<code>flutter doctor</code>命令，检查Flutter的安装状态和依赖项。根据提示安装缺失的依赖项。</li>
+</ol>
+]]></content:encoded>
+    </item>
+    <item>
       <title>Redis（Remote Dictionary Server）</title>
       <link>https://newzone.top/tools/redis.html</link>
       <guid>https://newzone.top/tools/redis.html</guid>
@@ -107,6 +127,33 @@ docker compose --profile '*' up -d
 <li>📡 <strong>内置高可用机制</strong>：支持主从复制、哨兵、集群部署。</li>
 <li>🧠 <strong>广泛应用场景</strong>：从缓存到排行榜、分布式锁等，都能胜任。</li>
 </ul>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>快递包裹检测与赔付决策Agent</title>
+      <link>https://newzone.top/projects/AI_Agent/AgentProject.html</link>
+      <guid>https://newzone.top/projects/AI_Agent/AgentProject.html</guid>
+      <source url="https://newzone.top/rss.xml">快递包裹检测与赔付决策Agent</source>
+      <description>基于Agent大模型的破损快递包裹识别与赔付决策 项目概述 本项目旨在利用多模态大模型，对破损快递包裹进行识别，获取破损程度，并结合快递公司赔付政策，利用增强检索（RAG）技术，快速检索相关条款并生成赔付结果。项目集成多模态大模型图像识别，数据向量化存储检索，Agent决策等技术，为物流行业提供智能化解决方案。 技术栈 多模态大模型 Gemini 2....</description>
+      <category>技术实践</category>
+      <pubDate>Wed, 10 Dec 2025 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[
+<h2>项目概述</h2>
+<p>本项目旨在利用多模态大模型，对破损快递包裹进行识别，获取破损程度，并结合快递公司赔付政策，利用增强检索（RAG）技术，快速检索相关条款并生成赔付结果。项目集成多模态大模型图像识别，数据向量化存储检索，Agent决策等技术，为物流行业提供智能化解决方案。</p>
+<h2>技术栈</h2>
+<ul>
+<li>多模态大模型 Gemini 2.5 Flash</li>
+<li>向量数据库 Chroma</li>
+<li>Agent 框架 LangChain</li>
+</ul>
+<h2>项目流程</h2>
+<ol>
+<li><strong>图像识别</strong>：使用 Gemini 2.5 Flash 多模态大模型对上传的快递包裹图像进行分析，识别破损类型和程度。</li>
+<li><strong>文本处理</strong>：将快递公司的赔付政策文档进行预处理，分段存储至 Chroma 向量数据库，便于后续检索。</li>
+<li><strong>增强检索（RAG）</strong>：基于用户上传的破损图像识别结果，构建查询向量，从 Chroma 数据库中检索相关赔付政策条款。</li>
+<li><strong>Agent决策</strong>：使用 LangChain 框架构建赔付决策Agent，结合识别结果和赔付条款进行决策。</li>
+<li><strong>用户界面</strong>：使用JS和HTML构建用户界面，允许用户快速查看赔付结果。</li>
+</ol>
 ]]></content:encoded>
     </item>
   </channel>
