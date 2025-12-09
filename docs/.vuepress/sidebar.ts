@@ -16,19 +16,22 @@ export default sidebar({
         {
           text: "C语言",
           icon: "",
+          prefix: "/notes/C_Language/",
           collapsible: true,
           children: ["C.md","Ctext.md"],
         },
-         {
+         /*{
           text: "算法与优化",
           icon: "",
+          prefix: "/notes/Optimization/",
           children: ["GWO.md", "SLP.md"],
         },
         {
           text: "前端相关",
           icon: "",
+          prefix: "/notes/Frontend/",
           children: ["Vue.md", "HTML_CSS.md"],
-        },
+        },*/
       ],
     },
     {
@@ -37,9 +40,14 @@ export default sidebar({
       prefix: "/projects/",
       collapsible: true,
       children: [
-        "SpringToSwift.md", // 项目迁移记录
         "Warehouse.md",  // 仓储仿真项目
         "Coze.md", // Coze Studio 扣子开源项目本地部署
+        {
+          text: "AI Agent 决策项目",
+          icon: "",
+          prefix: "/projects/AI_Agent/",
+          children: ["AgentProject.md", "Chroma.md", "LangChain.md", "GeminiAPI.md"],
+        }
       ],
     },
     {
@@ -48,14 +56,14 @@ export default sidebar({
       prefix: "/tools/",
       collapsible: true,
       children: [
-        "macSetup.md", // Mac 软件工具
+       // "macSetup.md", // Mac 软件工具 （TODO）
         "VSCode.md",   // VSCode 插件设置
         "redis.md",  // Redis 教程
         "go.md", // Go语言 
       ],
     },
-    {
-      text: "💬 随笔与反思",
+    /*{
+      text: "💬 随笔与反思（TODO）",
       icon: "",
       prefix: "/thoughts/",
       collapsible: true,
@@ -63,6 +71,6 @@ export default sidebar({
         "startBlog.md", // 为什么开始写博客
         "thinking.md",  // 最近思考
       ],
-    },
+    },*/
   ],
 });
