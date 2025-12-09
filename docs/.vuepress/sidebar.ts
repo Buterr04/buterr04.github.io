@@ -46,6 +46,7 @@ export default sidebar({
           text: "AI Agent 决策项目",
           icon: "",
           prefix: "/projects/AI_Agent/",
+          collapsible: true,
           children: ["AgentProject.md", "Chroma.md", "LangChain.md", "GeminiAPI.md"],
         }
       ],
@@ -57,9 +58,10 @@ export default sidebar({
       collapsible: true,
       children: [
        // "macSetup.md", // Mac 软件工具 （TODO）
-        "VSCode.md",   // VSCode 插件设置
+       // "VSCode.md",   // VSCode 插件设置
         "redis.md",  // Redis 教程
         "go.md", // Go语言 
+        "flutter.md", // Flutter 教程
       ],
     },
     /*{
