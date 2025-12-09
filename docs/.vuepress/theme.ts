@@ -130,10 +130,10 @@ export default hopeTheme({
 
       // Giscus
       provider: "Giscus",
-      //repo: "rockbenben/LearnData",
-      //repoId: "R_kgDOHdfk6Q",
+      repo: "Buterr04/buterr04.github.io",
+      repoId: "R_kgDOL0Eh5g",
       category: "Comments",
-      //categoryId: "DIC_kwDOHdfk6c4CQYNn",
+      categoryId: "DIC_kwDOL0Eh5s4CzkY9",
     },
 
     // 组件库
