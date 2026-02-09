@@ -7,40 +7,6 @@
   "favicon": "https://newzone.top/favicon.ico",
   "items": [
     {
-      "title": "Coze Studio 扣子开源项目本地部署",
-      "url": "https://newzone.top/projects/Coze.html",
-      "id": "https://newzone.top/projects/Coze.html",
-      "summary": "Coze Studio 扣子开源项目本地部署 Coze Studio 扣子开源项目是一个基于 AI 的协同创作平台，旨在帮助用户更高效地进行内容创作和管理。Coze官方与2025.7.26日发布了Coze Studio的开源版本，支持本地部署。本文将实践如何在本地部署 Coze Studio 扣子开源项目。 1. 环境准备 操作系统：macOS 15 ...",
-      "content_html": "\n<blockquote>\n<p>Coze Studio 扣子开源项目是一个基于 AI 的协同创作平台，旨在帮助用户更高效地进行内容创作和管理。Coze官方与2025.7.26日发布了Coze Studio的开源版本，支持本地部署。本文将实践如何在本地部署 Coze Studio 扣子开源项目。</p>\n</blockquote>\n<h2>1. 环境准备</h2>\n<ul>\n<li><strong>操作系统</strong>：macOS 15 Sequoia</li>\n<li><strong>Docker</strong>：Docker Desktop for macOS</li>\n</ul>\n<p>部署步骤：</p>\n<ol>\n<li>\n<p>获取源码。</p>\n<div class=\"language-Bash\" data-ext=\"Bash\" data-title=\"Bash\"><pre class=\"language-Bash\"><code># 克隆代码\ngit clone https://github.com/coze-dev/coze-studio.git\n</code></pre></div></li>\n<li>\n<p>配置模型。</p>\n<ol>\n<li>\n<p>从模板目录复制模型的模版文件，并粘贴到配置文件目录。</p>\n<div class=\"language-Bash\" data-ext=\"Bash\" data-title=\"Bash\"><pre class=\"language-Bash\"><code># 模版文件目录\nbackend/conf/model/template/xxx.yaml\n</code></pre></div><div class=\"language-Bash\" data-ext=\"Bash\" data-title=\"Bash\"><pre class=\"language-Bash\"><code># 配置文件目录\nbackend/conf/model/xxx.yaml\n</code></pre></div></li>\n<li>\n<p>在配置文件目录下，修改模版文件。</p>\n<ol>\n<li>进入目录 <code>backend/conf/model</code>。打开复制后的文件<code>xxx.yaml</code>。</li>\n<li>设置 <code>id</code>、<code>meta.conn_config.api_key</code>、<code>meta.conn_config.model</code> 字段，并保存文件。\n<ul>\n<li><strong>id</strong>：Coze Studio 中的模型 ID，由开发者自行定义，必须是非 0 的整数，且全局唯一。模型上线后请勿修改模型 id 。</li>\n<li><strong>meta.conn_config.api_key</strong>：模型服务的 API Key。</li>\n<li><strong>meta.conn_config.model</strong>：模型服务的 model ID。</li>\n</ul>\n</li>\n</ol>\n</li>\n</ol>\n</li>\n<li>\n<p>部署并启动服务。\n首次部署并启动 Coze Studio 需要拉取镜像、构建本地镜像，可能耗时较久，请耐心等待。部署过程中，你会看到以下日志信息。如果看到提示 \"Container coze-server Started\"，表示 Coze Studio 服务已成功启动。</p>\n<div class=\"language-Bash\" data-ext=\"Bash\" data-title=\"Bash\"><pre class=\"language-Bash\"><code># 启动服务\ncd docker\ncp .env.example .env\ndocker compose --profile '*' up -d\n</code></pre></div></li>\n</ol>\n<p>注意：若本地已有SQL服务运行，可能会导致端口占用</p>\n<ol start=\"4\">\n<li>访问 Coze Studio。\n打开浏览器，访问 <code>http://localhost:8888</code>，即可进入 Coze Studio 的 Web 界面。</li>\n</ol>\n<p>项目中，部署使用了Google的Gemini免费API</p>\n",
-      "date_published": "2025-07-26T00:00:00.000Z",
-      "date_modified": "2025-07-26T05:09:29.000Z",
-      "authors": [
-        {
-          "name": "Buterr"
-        }
-      ],
-      "tags": [
-        "技术实践"
-      ]
-    },
-    {
-      "title": "📦 数码产品进销存管理系统实践",
-      "url": "https://newzone.top/projects/Warehouse.html",
-      "id": "https://newzone.top/projects/Warehouse.html",
-      "summary": "📦 数码产品进销存管理系统 仓库地址 GitHub 仓库链接 🧭 一、项目背景 在数码产品零售行业中，商品种类繁多、库存流转频繁、人工记录易错，管理难度极大。作为一家线下零售商，传统的手工管理方式已经难以满足日常运营的效率与准确性要求。因此，本项目旨在开发一套集采购、销售、库存管理于一体的进销存系统（WMS），实现企业信息化转型，提升运营效率。 \ud83c...",
-      "content_html": "",
-      "date_published": "2025-05-19T00:00:00.000Z",
-      "date_modified": "2026-02-04T06:13:07.000Z",
-      "authors": [
-        {
-          "name": "Buterr"
-        }
-      ],
-      "tags": [
-        "学习笔记"
-      ]
-    },
-    {
       "title": "Flutter",
       "url": "https://newzone.top/tools/flutter.html",
       "id": "https://newzone.top/tools/flutter.html",
@@ -77,6 +43,40 @@
       ],
       "tags": [
         "技术实践"
+      ]
+    },
+    {
+      "title": "Coze Studio 扣子开源项目本地部署",
+      "url": "https://newzone.top/projects/Coze.html",
+      "id": "https://newzone.top/projects/Coze.html",
+      "summary": "Coze Studio 扣子开源项目本地部署 Coze Studio 扣子开源项目是一个基于 AI 的协同创作平台，旨在帮助用户更高效地进行内容创作和管理。Coze官方与2025.7.26日发布了Coze Studio的开源版本，支持本地部署。本文将实践如何在本地部署 Coze Studio 扣子开源项目。 1. 环境准备 操作系统：macOS 15 ...",
+      "content_html": "\n<blockquote>\n<p>Coze Studio 扣子开源项目是一个基于 AI 的协同创作平台，旨在帮助用户更高效地进行内容创作和管理。Coze官方与2025.7.26日发布了Coze Studio的开源版本，支持本地部署。本文将实践如何在本地部署 Coze Studio 扣子开源项目。</p>\n</blockquote>\n<h2>1. 环境准备</h2>\n<ul>\n<li><strong>操作系统</strong>：macOS 15 Sequoia</li>\n<li><strong>Docker</strong>：Docker Desktop for macOS</li>\n</ul>\n<p>部署步骤：</p>\n<ol>\n<li>\n<p>获取源码。</p>\n<div class=\"language-Bash\" data-ext=\"Bash\" data-title=\"Bash\"><pre class=\"language-Bash\"><code># 克隆代码\ngit clone https://github.com/coze-dev/coze-studio.git\n</code></pre></div></li>\n<li>\n<p>配置模型。</p>\n<ol>\n<li>\n<p>从模板目录复制模型的模版文件，并粘贴到配置文件目录。</p>\n<div class=\"language-Bash\" data-ext=\"Bash\" data-title=\"Bash\"><pre class=\"language-Bash\"><code># 模版文件目录\nbackend/conf/model/template/xxx.yaml\n</code></pre></div><div class=\"language-Bash\" data-ext=\"Bash\" data-title=\"Bash\"><pre class=\"language-Bash\"><code># 配置文件目录\nbackend/conf/model/xxx.yaml\n</code></pre></div></li>\n<li>\n<p>在配置文件目录下，修改模版文件。</p>\n<ol>\n<li>进入目录 <code>backend/conf/model</code>。打开复制后的文件<code>xxx.yaml</code>。</li>\n<li>设置 <code>id</code>、<code>meta.conn_config.api_key</code>、<code>meta.conn_config.model</code> 字段，并保存文件。\n<ul>\n<li><strong>id</strong>：Coze Studio 中的模型 ID，由开发者自行定义，必须是非 0 的整数，且全局唯一。模型上线后请勿修改模型 id 。</li>\n<li><strong>meta.conn_config.api_key</strong>：模型服务的 API Key。</li>\n<li><strong>meta.conn_config.model</strong>：模型服务的 model ID。</li>\n</ul>\n</li>\n</ol>\n</li>\n</ol>\n</li>\n<li>\n<p>部署并启动服务。\n首次部署并启动 Coze Studio 需要拉取镜像、构建本地镜像，可能耗时较久，请耐心等待。部署过程中，你会看到以下日志信息。如果看到提示 \"Container coze-server Started\"，表示 Coze Studio 服务已成功启动。</p>\n<div class=\"language-Bash\" data-ext=\"Bash\" data-title=\"Bash\"><pre class=\"language-Bash\"><code># 启动服务\ncd docker\ncp .env.example .env\ndocker compose --profile '*' up -d\n</code></pre></div></li>\n</ol>\n<p>注意：若本地已有SQL服务运行，可能会导致端口占用</p>\n<ol start=\"4\">\n<li>访问 Coze Studio。\n打开浏览器，访问 <code>http://localhost:8888</code>，即可进入 Coze Studio 的 Web 界面。</li>\n</ol>\n<p>项目中，部署使用了Google的Gemini免费API</p>\n",
+      "date_published": "2025-07-26T00:00:00.000Z",
+      "date_modified": "2025-07-26T05:09:29.000Z",
+      "authors": [
+        {
+          "name": "Buterr"
+        }
+      ],
+      "tags": [
+        "技术实践"
+      ]
+    },
+    {
+      "title": "📦 数码产品进销存管理系统实践",
+      "url": "https://newzone.top/projects/Warehouse.html",
+      "id": "https://newzone.top/projects/Warehouse.html",
+      "summary": "📦 数码产品进销存管理系统 仓库地址 GitHub 仓库链接 🧭 一、项目背景 在数码产品零售行业中，商品种类繁多、库存流转频繁、人工记录易错，管理难度极大。作为一家线下零售商，传统的手工管理方式已经难以满足日常运营的效率与准确性要求。因此，本项目旨在开发一套集采购、销售、库存管理于一体的进销存系统（WMS），实现企业信息化转型，提升运营效率。 \ud83c...",
+      "content_html": "",
+      "date_published": "2025-05-19T00:00:00.000Z",
+      "date_modified": "2026-02-04T06:13:07.000Z",
+      "authors": [
+        {
+          "name": "Buterr"
+        }
+      ],
+      "tags": [
+        "学习笔记"
       ]
     }
   ]
