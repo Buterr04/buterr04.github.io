@@ -31,7 +31,7 @@ export default hopeTheme({
 
   // 页面元数据：贡献者，最后修改时间，编辑链接
   contributors: false,
-  lastUpdated: true,
+  lastUpdated: false,
   editLink: false,
 
   // 深色模式配置
