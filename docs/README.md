@@ -31,7 +31,7 @@ icon: fa-solid fa-book-open-reader
 ---
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Buterr04&theme=transparent&show_icons=true&hide_border=true" />
-  <br/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Buterr04&theme=transparent&hide_border=true&layout=donut-vertical&langs_count=6" />
+  <a href="https://github.com/Buterr04">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Buterr04&repo=buterr04.github.io&theme=transparent&hide_border=true" />
+  </a>
 </p>
