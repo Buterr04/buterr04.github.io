@@ -6,32 +6,14 @@ export default sidebar({
   "": [
     // 指定显示页面
     {
-      text: "📒 学习笔记",
+      text: "📚 课程笔记",
       icon: "",
-      prefix: "/notes/",
+      prefix: "/study/",
       link: "",
       collapsible: true,
       children: [
         "Java.md",
-        {
-          text: "C语言",
-          icon: "",
-          prefix: "/notes/C_Language/",
-          collapsible: true,
-          children: ["C.md","Ctext.md"],
-        },
-         /*{
-          text: "算法与优化",
-          icon: "",
-          prefix: "/notes/Optimization/",
-          children: ["GWO.md", "SLP.md"],
-        },
-        {
-          text: "前端相关",
-          icon: "",
-          prefix: "/notes/Frontend/",
-          children: ["Vue.md", "HTML_CSS.md"],
-        },*/
+        "C.md",
       ],
     },
     {
@@ -47,32 +29,27 @@ export default sidebar({
           icon: "",
           prefix: "/projects/AI_Agent/",
           collapsible: true,
-          children: ["AgentProject.md", "Chroma.md", "LangChain.md", "GeminiAPI.md"],
+          children: ["AgentProject.md"],
         }
       ],
     },
     {
-      text: "🛠️ 工具与配置",
+      text: "🔧 技术笔记",
       icon: "",
-      prefix: "/tools/",
+      prefix: "/tech/",
       collapsible: true,
       children: [
-       // "macSetup.md", // Mac 软件工具 （TODO）
-       // "VSCode.md",   // VSCode 插件设置
-        "redis.md",  // Redis 教程
-        "go.md", // Go语言 
-        "flutter.md", // Flutter 教程
+        {
+          text: "AI 相关",
+          icon: "",
+          prefix: "/tech/AI_Agent/",
+          collapsible: true,
+          children: ["Chroma.md", "LangChain.md", "GeminiAPI.md"],
+        },
+        "redis.md",
+        "go.md",
+        "flutter.md",
       ],
     },
-    /*{
-      text: "💬 随笔与反思（TODO）",
-      icon: "",
-      prefix: "/thoughts/",
-      collapsible: true,
-      children: [
-        "startBlog.md", // 为什么开始写博客
-        "thinking.md",  // 最近思考
-      ],
-    },*/
   ],
 });
