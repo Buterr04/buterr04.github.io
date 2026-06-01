@@ -71,7 +71,7 @@ export default hopeTheme({
   blog: {
     articleInfo: ["Date", "PageView", "Category", "Tag", "ReadingTime"],
     name: "Buterr",
-    avatar: "/avatar_self.webp",
+    avatar: "https://avatars.githubusercontent.com/u/122344168?v=4",
     description: "学生，热爱数据科学与编程，喜欢折腾各种新技术",
     intro: "/intro.html",
     roundAvatar: true,
