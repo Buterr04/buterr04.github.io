@@ -7,7 +7,7 @@ title: 互联网小白
 heroImage: https://avatars.githubusercontent.com/u/122344168?v=4
 heroText: Buterr
 tagline: 记录学习点滴，分享技术经验
-bgImage: https://img.newzone.top/home-bg-1.jpg
+bgImage: https://pic4.zhimg.com/v2-7168ed46510923a7febcc937841ec79b_r.jpg
 heroFullScreen: false
 
 projects:
