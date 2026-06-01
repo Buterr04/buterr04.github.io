@@ -4,23 +4,34 @@ title: Buterr的blog
 icon: fa-solid fa-book-open-reader
 ---
 
-> Buterr的blog
+<div style="text-align: center; margin: 40px 0;">
+  <img src="/avatar_self.webp" alt="avatar" style="width: 120px; border-radius: 50%; margin-bottom: 16px;">
+  <h1 style="margin: 8px 0;">Buterr</h1>
+  <p style="color: #666; font-size: 16px;">BUPT · 物流工程 · AI爱好者</p>
+</div>
 
-### Hi there 👋
+---
 
-I'm a student from Beijing University of Posts and Telecommunications, now I'm trying to use Github to learn something about coding.
-Life will be better with code.
+## 🚀 项目
 
+| 项目 | 说明 |
+|------|------|
+| [快递包裹破损识别系统](/projects/AI_Agent/AgentProject.html) | 基于大模型Agent的智能物流赔付决策 |
+| [Coze Studio 部署](/projects/Coze.html) | 扣子开源项目本地部署实践 |
+| [Warehouse Management](https://github.com/Buterr04/WarehouseManagementSystem) | 仓储信息管理系统 |
+| [LKH算法](https://github.com/Buterr04/LKH-3opt-TSP) | TSP问题算法改进 |
+
+## 📝 笔记
+
+| 分类 | 内容 |
+|------|------|
+| [📚 课程笔记](/study/Java.html) | Java、C语言 |
+| [🔧 技术笔记](/tech/redis.html) | Redis、Go、Flutter、LangChain等 |
+
+---
 
 <p align="center">
-   <!-- https://github.com/anuraghazra/github-readme-stats -->
-   <img align="center" src="https://github-readme-stats.vercel.app/api?username=Buterr04&theme=transparent&show_icons=true&hide_border=true" />
-   <!-- https://github.com/DenverCoder1/github-readme-streak-stats -->
-   <img align="center" src="https://streak-stats.demolab.com?user=Buterr04&theme=transparent&date_format=%5BY.%5Dn.j&hide_border=true" />
-   <br/>
-
-   <!-- https://github.com/anuraghazra/github-readme-stats -->
-   <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Buterr04&theme=transparent&hide_border=true&layout=donut-vertical&langs_count=6" />
-   <br/>
-
+  <img src="https://github-readme-stats.vercel.app/api?username=Buterr04&theme=transparent&show_icons=true&hide_border=true" />
+  <br/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Buterr04&theme=transparent&hide_border=true&layout=donut-vertical&langs_count=6" />
 </p>
