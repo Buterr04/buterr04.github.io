@@ -17,7 +17,8 @@ author: Buterr
 date: 2024-06-02
 # 一个页面可以有多个分类
 category:
-  - 学习笔记
+  - 课程笔记
+
 # 一个页面可以有多个标签
 tag:
   - Java

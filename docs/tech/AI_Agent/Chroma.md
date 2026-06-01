@@ -17,7 +17,7 @@ author: Buterr
 date: 2025-12-09
 # 一个页面可以有多个分类
 category:
-  - 学习笔记
+  - 技术笔记
 # 一个页面可以有多个标签
 tag:
   - AI Agent
