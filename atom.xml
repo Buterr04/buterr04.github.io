@@ -4,7 +4,7 @@
   <title>Buterr的blog</title>
   <subtitle>这里是Buterr的个人博客，记录学习和生活点滴</subtitle>
   <icon>https://newzone.top/favicon.ico</icon>
-  <updated>2026-06-01T12:30:52.195Z</updated>
+  <updated>2026-06-01T12:41:39.627Z</updated>
   <generator>@vuepress/plugin-feed</generator>
   <link rel="self" href="https://newzone.top/atom.xml"/>
   <link rel="alternate" href="https://newzone.top/"/>
@@ -13,104 +13,6 @@
   <contributor>
     <name>Buterr</name>
   </contributor>
-  <entry>
-    <title type="text">Flutter</title>
-    <id>https://newzone.top/tools/flutter.html</id>
-    <link href="https://newzone.top/tools/flutter.html"/>
-    <updated>2025-12-09T06:14:39.000Z</updated>
-    <summary type="html"><![CDATA[
-<blockquote>
-<p>Flutter是Google开发的一款软件包，能够构建高性能、高保真的移动应用。在更新之后可以支持Web、桌面应用和Android以及iOS设备，能够实现跨平台开发。</p>
-</blockquote>
-<h2>安装Flutter</h2>
-<ol>
-<li>下载Flutter SDK：访问<a href="https://flutter.dev/docs/get-started/install" target="_blank" rel="noopener noreferrer">Flutter官网</a>下载适合你操作系统的Flutter SDK。</li>
-<li>解压缩下载的文件到你希望安装Flutter的目录。</li>
-<li>将Flutter的<code>bin</code>目录添加到你的系统环境变量中，以便在终端或命令行中可以直接使用<code>flutter</code>命令。</li>
-<li>在终端或命令行中运行<code>flutter doctor</code>命令，检查Flutter的安装状态和依赖项。根据提示安装缺失的依赖项。</li>
-</ol>]]></summary>
-    <content type="html"><![CDATA[
-<blockquote>
-<p>Flutter是Google开发的一款软件包，能够构建高性能、高保真的移动应用。在更新之后可以支持Web、桌面应用和Android以及iOS设备，能够实现跨平台开发。</p>
-</blockquote>
-<h2>安装Flutter</h2>
-<ol>
-<li>下载Flutter SDK：访问<a href="https://flutter.dev/docs/get-started/install" target="_blank" rel="noopener noreferrer">Flutter官网</a>下载适合你操作系统的Flutter SDK。</li>
-<li>解压缩下载的文件到你希望安装Flutter的目录。</li>
-<li>将Flutter的<code>bin</code>目录添加到你的系统环境变量中，以便在终端或命令行中可以直接使用<code>flutter</code>命令。</li>
-<li>在终端或命令行中运行<code>flutter doctor</code>命令，检查Flutter的安装状态和依赖项。根据提示安装缺失的依赖项。</li>
-</ol>
-]]></content>
-    <published>2025-12-09T06:14:39.000Z</published>
-  </entry>
-  <entry>
-    <title type="text">Redis（Remote Dictionary Server）</title>
-    <id>https://newzone.top/tools/redis.html</id>
-    <link href="https://newzone.top/tools/redis.html"/>
-    <updated>2025-07-10T14:53:13.000Z</updated>
-    <summary type="html"><![CDATA[
-<blockquote>
-<p>Redis是一个开源的内存数据库，遵守 BSD 协议，它提供了一个高性能的键值（key-value）存储系统，常用于缓存、消息队列、会话存储等应用场景。通常用于处理高并发操作</p>
-</blockquote>
-<h2>一、为什么选择 Redis？</h2>
-<p>相比传统数据库或文件系统，Redis 有以下优势：</p>
-<ul>
-<li>🚀 <strong>超快的访问速度</strong>：所有数据存储于内存中，读写速度可达十万级 QPS。</li>
-<li>📦 <strong>丰富的数据结构</strong>：支持字符串、列表、集合、有序集合、哈希等多种结构。</li>
-<li>💾 <strong>支持持久化</strong>：通过 RDB、AOF 两种方式将内存快照保存到磁盘。</li>
-<li>📡 <strong>内置高可用机制</strong>：支持主从复制、哨兵、集群部署。</li>
-<li>🧠 <strong>广泛应用场景</strong>：从缓存到排行榜、分布式锁等，都能胜任。</li>
-</ul>]]></summary>
-    <content type="html"><![CDATA[
-<blockquote>
-<p>Redis是一个开源的内存数据库，遵守 BSD 协议，它提供了一个高性能的键值（key-value）存储系统，常用于缓存、消息队列、会话存储等应用场景。通常用于处理高并发操作</p>
-</blockquote>
-<h2>一、为什么选择 Redis？</h2>
-<p>相比传统数据库或文件系统，Redis 有以下优势：</p>
-<ul>
-<li>🚀 <strong>超快的访问速度</strong>：所有数据存储于内存中，读写速度可达十万级 QPS。</li>
-<li>📦 <strong>丰富的数据结构</strong>：支持字符串、列表、集合、有序集合、哈希等多种结构。</li>
-<li>💾 <strong>支持持久化</strong>：通过 RDB、AOF 两种方式将内存快照保存到磁盘。</li>
-<li>📡 <strong>内置高可用机制</strong>：支持主从复制、哨兵、集群部署。</li>
-<li>🧠 <strong>广泛应用场景</strong>：从缓存到排行榜、分布式锁等，都能胜任。</li>
-</ul>
-]]></content>
-    <published>2025-07-10T14:53:13.000Z</published>
-  </entry>
-  <entry>
-    <title type="text">基于大模型Agent的快递包裹检测与赔付决策系统</title>
-    <id>https://newzone.top/projects/AI_Agent/AgentProject.html</id>
-    <link href="https://newzone.top/projects/AI_Agent/AgentProject.html"/>
-    <updated>2026-06-01T12:29:46.000Z</updated>
-    <summary type="html"><![CDATA[
-<p>仓库地址</p>
-<ul>
-<li><a href="https://github.com/Buterr04/MyPackages_Checker" target="_blank" rel="noopener noreferrer">GitHub 仓库</a></li>
-</ul>
-<h2>项目概述</h2>
-<p>本项目旨在利用多模态大模型，对破损快递包裹进行识别，获取破损程度，并结合快递公司赔付政策，利用增强检索（RAG）技术，快速检索相关条款并生成赔付结果。项目集成多模态大模型图像识别、数据向量化存储检索、Agent决策等技术，为物流行业提供智能化解决方案。</p>
-<h2>技术栈</h2>]]></summary>
-    <content type="html"><![CDATA[
-<p>仓库地址</p>
-<ul>
-<li><a href="https://github.com/Buterr04/MyPackages_Checker" target="_blank" rel="noopener noreferrer">GitHub 仓库</a></li>
-</ul>
-<h2>项目概述</h2>
-<p>本项目旨在利用多模态大模型，对破损快递包裹进行识别，获取破损程度，并结合快递公司赔付政策，利用增强检索（RAG）技术，快速检索相关条款并生成赔付结果。项目集成多模态大模型图像识别、数据向量化存储检索、Agent决策等技术，为物流行业提供智能化解决方案。</p>
-<h2>技术栈</h2>
-<p>| 层级 | 技术 | 说明 |
-|</p>
-]]></content>
-    <author>
-      <name>Buterr</name>
-    </author>
-    <category term="技术实践"/>
-    <contributor>
-      <name>Buterr</name>
-    </contributor>
-    <published>2025-12-10T00:00:00.000Z</published>
-    <rights>Buterr</rights>
-  </entry>
   <entry>
     <title type="text">Coze Studio 扣子开源项目本地部署</title>
     <id>https://newzone.top/projects/Coze.html</id>
@@ -213,6 +115,104 @@ docker compose --profile '*' up -d
       <name>Buterr</name>
     </contributor>
     <published>2025-05-19T00:00:00.000Z</published>
+    <rights>Buterr</rights>
+  </entry>
+  <entry>
+    <title type="text">Flutter</title>
+    <id>https://newzone.top/tech/flutter.html</id>
+    <link href="https://newzone.top/tech/flutter.html"/>
+    <updated>2026-06-01T12:40:37.000Z</updated>
+    <summary type="html"><![CDATA[
+<blockquote>
+<p>Flutter是Google开发的一款软件包，能够构建高性能、高保真的移动应用。在更新之后可以支持Web、桌面应用和Android以及iOS设备，能够实现跨平台开发。</p>
+</blockquote>
+<h2>安装Flutter</h2>
+<ol>
+<li>下载Flutter SDK：访问<a href="https://flutter.dev/docs/get-started/install" target="_blank" rel="noopener noreferrer">Flutter官网</a>下载适合你操作系统的Flutter SDK。</li>
+<li>解压缩下载的文件到你希望安装Flutter的目录。</li>
+<li>将Flutter的<code>bin</code>目录添加到你的系统环境变量中，以便在终端或命令行中可以直接使用<code>flutter</code>命令。</li>
+<li>在终端或命令行中运行<code>flutter doctor</code>命令，检查Flutter的安装状态和依赖项。根据提示安装缺失的依赖项。</li>
+</ol>]]></summary>
+    <content type="html"><![CDATA[
+<blockquote>
+<p>Flutter是Google开发的一款软件包，能够构建高性能、高保真的移动应用。在更新之后可以支持Web、桌面应用和Android以及iOS设备，能够实现跨平台开发。</p>
+</blockquote>
+<h2>安装Flutter</h2>
+<ol>
+<li>下载Flutter SDK：访问<a href="https://flutter.dev/docs/get-started/install" target="_blank" rel="noopener noreferrer">Flutter官网</a>下载适合你操作系统的Flutter SDK。</li>
+<li>解压缩下载的文件到你希望安装Flutter的目录。</li>
+<li>将Flutter的<code>bin</code>目录添加到你的系统环境变量中，以便在终端或命令行中可以直接使用<code>flutter</code>命令。</li>
+<li>在终端或命令行中运行<code>flutter doctor</code>命令，检查Flutter的安装状态和依赖项。根据提示安装缺失的依赖项。</li>
+</ol>
+]]></content>
+    <published>2025-12-09T06:14:39.000Z</published>
+  </entry>
+  <entry>
+    <title type="text">Redis（Remote Dictionary Server）</title>
+    <id>https://newzone.top/tech/redis.html</id>
+    <link href="https://newzone.top/tech/redis.html"/>
+    <updated>2026-06-01T12:40:37.000Z</updated>
+    <summary type="html"><![CDATA[
+<blockquote>
+<p>Redis是一个开源的内存数据库，遵守 BSD 协议，它提供了一个高性能的键值（key-value）存储系统，常用于缓存、消息队列、会话存储等应用场景。通常用于处理高并发操作</p>
+</blockquote>
+<h2>一、为什么选择 Redis？</h2>
+<p>相比传统数据库或文件系统，Redis 有以下优势：</p>
+<ul>
+<li>🚀 <strong>超快的访问速度</strong>：所有数据存储于内存中，读写速度可达十万级 QPS。</li>
+<li>📦 <strong>丰富的数据结构</strong>：支持字符串、列表、集合、有序集合、哈希等多种结构。</li>
+<li>💾 <strong>支持持久化</strong>：通过 RDB、AOF 两种方式将内存快照保存到磁盘。</li>
+<li>📡 <strong>内置高可用机制</strong>：支持主从复制、哨兵、集群部署。</li>
+<li>🧠 <strong>广泛应用场景</strong>：从缓存到排行榜、分布式锁等，都能胜任。</li>
+</ul>]]></summary>
+    <content type="html"><![CDATA[
+<blockquote>
+<p>Redis是一个开源的内存数据库，遵守 BSD 协议，它提供了一个高性能的键值（key-value）存储系统，常用于缓存、消息队列、会话存储等应用场景。通常用于处理高并发操作</p>
+</blockquote>
+<h2>一、为什么选择 Redis？</h2>
+<p>相比传统数据库或文件系统，Redis 有以下优势：</p>
+<ul>
+<li>🚀 <strong>超快的访问速度</strong>：所有数据存储于内存中，读写速度可达十万级 QPS。</li>
+<li>📦 <strong>丰富的数据结构</strong>：支持字符串、列表、集合、有序集合、哈希等多种结构。</li>
+<li>💾 <strong>支持持久化</strong>：通过 RDB、AOF 两种方式将内存快照保存到磁盘。</li>
+<li>📡 <strong>内置高可用机制</strong>：支持主从复制、哨兵、集群部署。</li>
+<li>🧠 <strong>广泛应用场景</strong>：从缓存到排行榜、分布式锁等，都能胜任。</li>
+</ul>
+]]></content>
+    <published>2025-07-10T14:53:13.000Z</published>
+  </entry>
+  <entry>
+    <title type="text">基于大模型Agent的快递包裹检测与赔付决策系统</title>
+    <id>https://newzone.top/projects/AI_Agent/AgentProject.html</id>
+    <link href="https://newzone.top/projects/AI_Agent/AgentProject.html"/>
+    <updated>2026-06-01T12:29:46.000Z</updated>
+    <summary type="html"><![CDATA[
+<p>仓库地址</p>
+<ul>
+<li><a href="https://github.com/Buterr04/MyPackages_Checker" target="_blank" rel="noopener noreferrer">GitHub 仓库</a></li>
+</ul>
+<h2>项目概述</h2>
+<p>本项目旨在利用多模态大模型，对破损快递包裹进行识别，获取破损程度，并结合快递公司赔付政策，利用增强检索（RAG）技术，快速检索相关条款并生成赔付结果。项目集成多模态大模型图像识别、数据向量化存储检索、Agent决策等技术，为物流行业提供智能化解决方案。</p>
+<h2>技术栈</h2>]]></summary>
+    <content type="html"><![CDATA[
+<p>仓库地址</p>
+<ul>
+<li><a href="https://github.com/Buterr04/MyPackages_Checker" target="_blank" rel="noopener noreferrer">GitHub 仓库</a></li>
+</ul>
+<h2>项目概述</h2>
+<p>本项目旨在利用多模态大模型，对破损快递包裹进行识别，获取破损程度，并结合快递公司赔付政策，利用增强检索（RAG）技术，快速检索相关条款并生成赔付结果。项目集成多模态大模型图像识别、数据向量化存储检索、Agent决策等技术，为物流行业提供智能化解决方案。</p>
+<h2>技术栈</h2>
+<p>| 层级 | 技术 | 说明 |
+|</p>
+]]></content>
+    <author>
+      <name>Buterr</name>
+    </author>
+    <category term="技术实践"/>
+    <contributor>
+      <name>Buterr</name>
+    </contributor>
+    <published>2025-12-10T00:00:00.000Z</published>
     <rights>Buterr</rights>
   </entry>
 </feed>
