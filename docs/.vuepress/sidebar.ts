@@ -24,13 +24,7 @@ export default sidebar({
       children: [
         "Warehouse.md",  // 仓储仿真项目
         "Coze.md", // Coze Studio 扣子开源项目本地部署
-        {
-          text: "AI Agent 决策项目",
-          icon: "",
-          prefix: "/projects/AI_Agent/",
-          collapsible: true,
-          children: ["AgentProject.md"],
-        }
+        "AI_Agent/AgentProject.md",
       ],
     },
     {
