@@ -4,8 +4,8 @@ home: true
 layout: BlogHome
 icon: fa-solid fa-house-crack
 title: 互联网小白
-heroImage: /avatar_self.webp
-heroText: 互联网小白
+heroImage: https://avatars.githubusercontent.com/u/122344168?v=4
+heroText: Buterr
 tagline: 记录学习点滴，分享技术经验
 bgImage: https://img.newzone.top/home-bg-1.jpg
 heroFullScreen: false
