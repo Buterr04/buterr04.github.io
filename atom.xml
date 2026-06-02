@@ -4,12 +4,14 @@
   <title>Buterr的blog</title>
   <subtitle>这里是Buterr的个人博客，记录学习和生活点滴</subtitle>
   <icon>https://newzone.top/favicon.ico</icon>
-  <updated>2026-06-01T15:14:08.480Z</updated>
+  <updated>2026-06-02T10:13:09.026Z</updated>
   <generator>@vuepress/plugin-feed</generator>
   <link rel="self" href="https://newzone.top/atom.xml"/>
   <link rel="alternate" href="https://newzone.top/"/>
   <category term="技术实践"/>
   <category term="学习笔记"/>
+  <category term="技术笔记"/>
+  <category term="AI"/>
   <contributor>
     <name>Buterr</name>
   </contributor>
@@ -146,6 +148,202 @@ docker compose --profile '*' up -d
 </ol>
 ]]></content>
     <published>2025-12-09T06:14:39.000Z</published>
+  </entry>
+  <entry>
+    <title type="text">打造你的私人 AI 助手：OpenClaw 配置与使用指南</title>
+    <id>https://newzone.top/tech/openclaw.html</id>
+    <link href="https://newzone.top/tech/openclaw.html"/>
+    <updated>2026-06-02T10:11:59.000Z</updated>
+    <summary type="html"><![CDATA[
+<blockquote>
+<p>本文记录了我在服务器上部署 OpenClaw 并配置 QQ Bot 的全过程，希望能帮到同样想折腾的朋友。</p>
+</blockquote>
+<h2>前言</h2>
+<p>你有没有想过，能在 QQ、微信、Telegram 等各种聊天软件里直接和 AI 对话？不是那种网页版的 ChatGPT，而是一个真正属于你的、部署在自己服务器上的 AI 助手？</p>
+<p>OpenClaw 就是这么一个东西——一个开源的、自托管的 AI Agent 网关。它像一座桥，把你常用的聊天软件和 AI 模型连接起来。</p>
+<p>今天这篇文章，就来分享一下如何从零开始配置 OpenClaw。</p>]]></summary>
+    <content type="html"><![CDATA[
+<blockquote>
+<p>本文记录了我在服务器上部署 OpenClaw 并配置 QQ Bot 的全过程，希望能帮到同样想折腾的朋友。</p>
+</blockquote>
+<h2>前言</h2>
+<p>你有没有想过，能在 QQ、微信、Telegram 等各种聊天软件里直接和 AI 对话？不是那种网页版的 ChatGPT，而是一个真正属于你的、部署在自己服务器上的 AI 助手？</p>
+<p>OpenClaw 就是这么一个东西——一个开源的、自托管的 AI Agent 网关。它像一座桥，把你常用的聊天软件和 AI 模型连接起来。</p>
+<p>今天这篇文章，就来分享一下如何从零开始配置 OpenClaw。</p>
+<h2>什么是 OpenClaw</h2>
+<p>简单来说，OpenClaw 是一个<strong>多渠道 AI 助手网关</strong>：</p>
+<ul>
+<li><strong>自托管</strong>：运行在你自己的服务器上，数据完全由你掌控</li>
+<li><strong>多渠道</strong>：一个 Gateway 同时服务 QQ、Telegram、Discord、WhatsApp 等多个平台</li>
+<li><strong>Agent 原生</strong>：支持工具调用、会话管理、记忆系统、多智能体协作</li>
+<li><strong>开源免费</strong>：MIT 协议，社区驱动</li>
+</ul>
+<p>用官方的话说：<em>"Any OS gateway for AI agents across Discord, Google Chat, iMessage, Matrix, Microsoft Teams, Signal, Slack, Telegram, WhatsApp, Zalo, and more."</em></p>
+<h2>环境准备</h2>
+<h3>硬件要求</h3>
+<ul>
+<li>一台服务器（我用的是阿里云 ECS，2核4G）</li>
+<li>任意 Linux 发行版（Ubuntu/Debian/CentOS 都行）</li>
+</ul>
+<h3>软件依赖</h3>
+<ul>
+<li><strong>Node.js 24</strong>（推荐）或 Node.js 22 LTS（22.19+）</li>
+<li><strong>npm</strong> 或 <strong>pnpm</strong></li>
+<li>一个 AI 模型的 API Key（OpenAI、通义千问、小米 MiMo 等都可以）</li>
+</ul>
+<h3>安装 OpenClaw</h3>
+<div class="language-bash" data-ext="sh" data-title="sh"><pre class="language-bash"><code><span class="token comment"># 安装 Node.js（如果还没装）</span>
+<span class="token function">curl</span> <span class="token parameter variable">-fsSL</span> https://deb.nodesource.com/setup_24.x <span class="token operator">|</span> <span class="token function">sudo</span> <span class="token parameter variable">-E</span> <span class="token function">bash</span> -
+<span class="token function">sudo</span> <span class="token function">apt-get</span> <span class="token function">install</span> <span class="token parameter variable">-y</span> nodejs
+
+<span class="token comment"># 全局安装 OpenClaw</span>
+<span class="token function">npm</span> <span class="token function">install</span> <span class="token parameter variable">-g</span> openclaw
+
+<span class="token comment"># 检查安装</span>
+openclaw <span class="token parameter variable">--version</span>
+</code></pre></div><h2>初始化配置</h2>
+<p>安装完成后，运行初始化向导：</p>
+<div class="language-bash" data-ext="sh" data-title="sh"><pre class="language-bash"><code>openclaw onboard
+</code></pre></div><p>向导会引导你完成基本配置，包括：</p>
+<ul>
+<li>设置 AI 模型的 API Key</li>
+<li>配置工作目录</li>
+<li>选择要启用的渠道</li>
+</ul>
+<p>当然，你也可以直接编辑配置文件。OpenClaw 的配置文件位于：</p>
+<div class="language-text" data-ext="text" data-title="text"><pre class="language-text"><code>~/.openclaw/openclaw.json
+</code></pre></div><p>这是一个 JSON5 格式的文件（支持注释和尾逗号），用你喜欢的编辑器打开就行。</p>
+<h2>配置 AI 模型</h2>
+<p>OpenClaw 支持多种 AI 模型提供商。在配置文件中，你需要在 <code>models.providers</code> 下添加你的模型配置。</p>
+<h3>使用小米 MiMo（我目前在用的）</h3>
+<div class="language-json5" data-ext="json5" data-title="json5"><pre class="language-json5"><code><span class="token punctuation">{</span>
+  <span class="token property unquoted">models</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+    <span class="token property unquoted">providers</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+      <span class="token property">"xiaomi-coding"</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+        <span class="token property unquoted">baseUrl</span><span class="token operator">:</span> <span class="token string">"https://api.xiaomi.com/anthropic/v1"</span><span class="token punctuation">,</span>
+        <span class="token property unquoted">apiKey</span><span class="token operator">:</span> <span class="token string">"YOUR_API_KEY"</span><span class="token punctuation">,</span>
+        <span class="token property unquoted">api</span><span class="token operator">:</span> <span class="token string">"openai-completions"</span><span class="token punctuation">,</span>
+        <span class="token property unquoted">models</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+          <span class="token punctuation">{</span>
+            <span class="token property unquoted">id</span><span class="token operator">:</span> <span class="token string">"mimo-v2.5"</span><span class="token punctuation">,</span>
+            <span class="token property unquoted">name</span><span class="token operator">:</span> <span class="token string">"MiMo v2.5"</span><span class="token punctuation">,</span>
+            <span class="token property unquoted">reasoning</span><span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+            <span class="token property unquoted">input</span><span class="token operator">:</span> <span class="token punctuation">[</span><span class="token string">"text"</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+            <span class="token property unquoted">contextWindow</span><span class="token operator">:</span> <span class="token number">262144</span><span class="token punctuation">,</span>
+            <span class="token property unquoted">maxTokens</span><span class="token operator">:</span> <span class="token number">32768</span>
+          <span class="token punctuation">}</span>
+        <span class="token punctuation">]</span>
+      <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre></div><h3>使用其他模型</h3>
+<p>OpenClaw 支持所有 OpenAI 兼容的 API，配置方式类似：</p>
+<div class="language-json5" data-ext="json5" data-title="json5"><pre class="language-json5"><code><span class="token comment">// 通义千问</span>
+<span class="token property">"qwen"</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+  <span class="token property unquoted">baseUrl</span><span class="token operator">:</span> <span class="token string">"https://dashscope.aliyuncs.com/compatible-mode/v1"</span><span class="token punctuation">,</span>
+  <span class="token property unquoted">apiKey</span><span class="token operator">:</span> <span class="token string">"YOUR_DASHSCOPE_KEY"</span><span class="token punctuation">,</span>
+  <span class="token property unquoted">api</span><span class="token operator">:</span> <span class="token string">"openai-completions"</span><span class="token punctuation">,</span>
+  <span class="token property unquoted">models</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+    <span class="token punctuation">{</span> <span class="token property unquoted">id</span><span class="token operator">:</span> <span class="token string">"qwen-max"</span><span class="token punctuation">,</span> <span class="token property unquoted">name</span><span class="token operator">:</span> <span class="token string">"Qwen Max"</span> <span class="token punctuation">}</span>
+  <span class="token punctuation">]</span>
+<span class="token punctuation">}</span>
+
+<span class="token comment">// DeepSeek</span>
+<span class="token property">"deepseek"</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+  <span class="token property unquoted">baseUrl</span><span class="token operator">:</span> <span class="token string">"https://api.deepseek.com/v1"</span><span class="token punctuation">,</span>
+  <span class="token property unquoted">apiKey</span><span class="token operator">:</span> <span class="token string">"YOUR_DEEPSEEK_KEY"</span><span class="token punctuation">,</span>
+  <span class="token property unquoted">api</span><span class="token operator">:</span> <span class="token string">"openai-completions"</span><span class="token punctuation">,</span>
+  <span class="token property unquoted">models</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+    <span class="token punctuation">{</span> <span class="token property unquoted">id</span><span class="token operator">:</span> <span class="token string">"deepseek-chat"</span><span class="token punctuation">,</span> <span class="token property unquoted">name</span><span class="token operator">:</span> <span class="token string">"DeepSeek Chat"</span> <span class="token punctuation">}</span>
+  <span class="token punctuation">]</span>
+<span class="token punctuation">}</span>
+</code></pre></div><h2>配置 QQ Bot 渠道</h2>
+<p>我选择用 QQ 作为主要的聊天渠道。配置 QQ Bot 需要先在 <a href="https://q.qq.com/" target="_blank" rel="noopener noreferrer">QQ 开放平台</a> 注册一个机器人应用。</p>
+<h3>获取凭证</h3>
+<ol>
+<li>登录 <a href="https://q.qq.com/" target="_blank" rel="noopener noreferrer">QQ 开放平台</a></li>
+<li>创建一个机器人应用</li>
+<li>获取 <strong>App ID</strong> 和 <strong>Token</strong></li>
+</ol>
+<h3>配置文件</h3>
+<p>在 <code>openclaw.json</code> 中添加 QQ Bot 配置：</p>
+<div class="language-json5" data-ext="json5" data-title="json5"><pre class="language-json5"><code><span class="token punctuation">{</span>
+  <span class="token property unquoted">channels</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+    <span class="token property unquoted">qqbot</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+      <span class="token property unquoted">appId</span><span class="token operator">:</span> <span class="token string">"YOUR_APP_ID"</span><span class="token punctuation">,</span>
+      <span class="token property unquoted">token</span><span class="token operator">:</span> <span class="token string">"YOUR_TOKEN"</span><span class="token punctuation">,</span>
+      <span class="token property unquoted">allowFrom</span><span class="token operator">:</span> <span class="token punctuation">[</span><span class="token string">"ALL"</span><span class="token punctuation">]</span>  <span class="token comment">// 或指定用户 ID</span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre></div><h3>启动 Gateway</h3>
+<div class="language-bash" data-ext="sh" data-title="sh"><pre class="language-bash"><code>openclaw gateway start
+</code></pre></div><p>启动后，你就可以在 QQ 上给你的机器人发消息，它会自动回复了！</p>
+<h2>配置记忆系统</h2>
+<p>OpenClaw 有一个强大的记忆系统，可以让 AI "记住"你之前说过的话。</p>
+<h3>基本记忆</h3>
+<p>OpenClaw 会自动维护 <code>MEMORY.md</code> 文件，记录重要的对话内容。你可以在工作目录（默认 <code>~/.openclaw/workspace/</code>）下找到它。</p>
+<h3>启用语义搜索（Embeddings）</h3>
+<p>如果你想让记忆搜索更智能（不只是关键词匹配，而是理解语义），需要配置 Embedding 模型。</p>
+<p>我使用的是硅基流动（SiliconFlow）的免费 Embedding 服务：</p>
+<div class="language-json5" data-ext="json5" data-title="json5"><pre class="language-json5"><code><span class="token punctuation">{</span>
+  <span class="token property unquoted">models</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+    <span class="token property unquoted">providers</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+      <span class="token property">"siliconflow"</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+        <span class="token property unquoted">baseUrl</span><span class="token operator">:</span> <span class="token string">"https://api.siliconflow.cn/v1/"</span><span class="token punctuation">,</span>
+        <span class="token property unquoted">apiKey</span><span class="token operator">:</span> <span class="token string">"YOUR_SILICONFLOW_KEY"</span><span class="token punctuation">,</span>
+        <span class="token property unquoted">api</span><span class="token operator">:</span> <span class="token string">"openai-completions"</span><span class="token punctuation">,</span>
+        <span class="token property unquoted">models</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+          <span class="token punctuation">{</span>
+            <span class="token property unquoted">id</span><span class="token operator">:</span> <span class="token string">"BAAI/bge-m3"</span><span class="token punctuation">,</span>
+            <span class="token property unquoted">name</span><span class="token operator">:</span> <span class="token string">"BGE M3"</span><span class="token punctuation">,</span>
+            <span class="token property unquoted">contextWindow</span><span class="token operator">:</span> <span class="token number">8192</span><span class="token punctuation">,</span>
+            <span class="token property unquoted">maxTokens</span><span class="token operator">:</span> <span class="token number">8192</span>
+          <span class="token punctuation">}</span>
+        <span class="token punctuation">]</span>
+      <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  <span class="token property unquoted">agents</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+    <span class="token property unquoted">defaults</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+      <span class="token property unquoted">memorySearch</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+        <span class="token property unquoted">provider</span><span class="token operator">:</span> <span class="token string">"siliconflow"</span><span class="token punctuation">,</span>
+        <span class="token property unquoted">model</span><span class="token operator">:</span> <span class="token string">"BAAI/bge-m3"</span>
+      <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre></div><p>这样配置后，AI 就能通过语义理解来搜索记忆了。</p>
+<h2>定时任务与自动化</h2>
+<p>OpenClaw 内置了 cron 系统，可以设置定时任务。比如我设置了一个每周一早上 9 点自动抓取 GitHub 热门 AI 项目的任务。</p>
+<h3>配置定时任务</h3>
+<div class="language-json5" data-ext="json5" data-title="json5"><pre class="language-json5"><code><span class="token punctuation">{</span>
+  <span class="token property unquoted">cron</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+    <span class="token property unquoted">jobs</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+      <span class="token punctuation">{</span>
+        <span class="token property unquoted">name</span><span class="token operator">:</span> <span class="token string">"GitHub AI/ML 周报"</span><span class="token punctuation">,</span>
+        <span class="token property unquoted">schedule</span><span class="token operator">:</span> <span class="token punctuation">{</span> <span class="token property unquoted">kind</span><span class="token operator">:</span> <span class="token string">"cron"</span><span class="token punctuation">,</span> <span class="token property unquoted">expr</span><span class="token operator">:</span> <span class="token string">"0 9 * * 1"</span><span class="token punctuation">,</span> <span class="token property unquoted">tz</span><span class="token operator">:</span> <span class="token string">"Asia/Shanghai"</span> <span class="token punctuation">}</span><span class="token punctuation">,</span>
+        <span class="token property unquoted">sessionTarget</span><span class="token operator">:</span> <span class="token string">"isolated"</span><span class="token punctuation">,</span>
+        <span class="token property unquoted">payload</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+          <span class="token property unquoted">kind</span><span class="token operator">:</span> <span class="token string">"agentTurn"</span><span class="token punctuation">,</span>
+          <span class="token property unquoted">message</span><span class="token operator">:</span> <span class="token string">"抓取本周 GitHub AI/ML 热门项目并生成周报..."</span>
+        <span class="token punctuation">}</span><span class="token punctuation">,</span>
+        <span class="token property unquoted">delivery</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+          <span class="token property unquoted">mode</span><span class="token operator">:</span> <span class="token string">"announce"</span><span class="token punctuation">,</span>
+          <span class="token property unquoted">channel</span><span class="token operator">:</span> <span class="token string">"qqbot"</span>
+        <span class="token punctuation">}</span>
+      <span class="token punctuation">}</span>
+    <span class="token punctuation">]</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre></div><h3>常用 cron 表达式</h3>
+<p>| 场景 | 表达式 |
+|</p>
+]]></content>
+    <category term="技术笔记"/>
+    <category term="AI"/>
+    <published>2026-06-02T00:00:00.000Z</published>
   </entry>
   <entry>
     <title type="text">Redis（Remote Dictionary Server）</title>
