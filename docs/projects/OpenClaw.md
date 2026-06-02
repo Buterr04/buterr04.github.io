@@ -11,7 +11,7 @@ author: Buterr
 date: 2026-06-02
 # 分类
 category:
-  - 技术笔记
+  - 技术实践
   - AI
 # 标签
 tag:

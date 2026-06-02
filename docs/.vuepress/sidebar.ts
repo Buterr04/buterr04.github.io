@@ -25,6 +25,7 @@ export default sidebar({
         "Warehouse.md",  // 仓储仿真项目
         "Coze.md", // Coze Studio 扣子开源项目本地部署
         "AI_Agent/AgentProject.md",
+        "OpenClaw.md", // OpenClaw 配置与使用指南
       ],
     },
     {
@@ -40,7 +41,6 @@ export default sidebar({
           collapsible: true,
           children: ["Chroma.md", "LangChain.md", "GeminiAPI.md"],
         },
-        "openclaw.md",
         "redis.md",
         "go.md",
         "flutter.md",
