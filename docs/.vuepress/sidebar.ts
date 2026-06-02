@@ -40,6 +40,7 @@ export default sidebar({
           collapsible: true,
           children: ["Chroma.md", "LangChain.md", "GeminiAPI.md"],
         },
+        "openclaw.md",
         "redis.md",
         "go.md",
         "flutter.md",
