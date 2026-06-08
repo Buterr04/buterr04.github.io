@@ -1,0 +1,14 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "buterr04-blog",
+  "compatibility_date": "2026-06-08",
+  "observability": {
+    "enabled": true
+  },
+  "assets": {
+    "directory": ".vuepress/dist"
+  },
+  "compatibility_flags": [
+    "nodejs_compat"
+  ]
+}
