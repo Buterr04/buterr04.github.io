@@ -7,7 +7,7 @@ icon: fa-solid fa-book-open-reader
 <div style="text-align: center; margin: 40px 0;">
   <img src="https://avatars.githubusercontent.com/u/122344168?v=4" alt="avatar" style="width: 120px; border-radius: 50%; margin-bottom: 16px;">
   <h1 style="margin: 8px 0;">Buterr</h1>
-  <p style="color: #666; font-size: 16px;">BUPT · 物流工程 · AI爱好者</p>
+  <p style="color: #666; font-size: 16px;">BUPT · 自动化 · AI爱好者</p>
 </div>
 
 ---
