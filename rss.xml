@@ -1,13 +1,13 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="https://newzone.top/rss.xsl"?>
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="https://buterr04.github.io/rss.xsl"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <channel>
-    <atom:link href="https://newzone.top/rss.xml" rel="self" type="application/rss+xml"/>
+    <atom:link href="https://buterr04.github.io/rss.xml" rel="self" type="application/rss+xml"/>
     <title>Buterr的blog</title>
-    <link>https://newzone.top/</link>
+    <link>https://buterr04.github.io/</link>
     <description>这里是Buterr的个人博客，记录学习和生活点滴</description>
     <language>zh-CN</language>
-    <pubDate>Mon, 08 Jun 2026 04:03:16 GMT</pubDate>
-    <lastBuildDate>Mon, 08 Jun 2026 04:03:16 GMT</lastBuildDate>
+    <pubDate>Mon, 08 Jun 2026 05:52:15 GMT</pubDate>
+    <lastBuildDate>Mon, 08 Jun 2026 05:52:15 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>技术实践</category>
@@ -15,9 +15,9 @@
     <category>学习笔记</category>
     <item>
       <title>打造你的私人 AI 助手：OpenClaw 配置与使用指南</title>
-      <link>https://newzone.top/projects/OpenClaw.html</link>
-      <guid>https://newzone.top/projects/OpenClaw.html</guid>
-      <source url="https://newzone.top/rss.xml">打造你的私人 AI 助手：OpenClaw 配置与使用指南</source>
+      <link>https://buterr04.github.io/projects/OpenClaw.html</link>
+      <guid>https://buterr04.github.io/projects/OpenClaw.html</guid>
+      <source url="https://buterr04.github.io/rss.xml">打造你的私人 AI 助手：OpenClaw 配置与使用指南</source>
       <description>打造你的私人 AI 助手：OpenClaw 配置与使用指南 本文记录了我在服务器上部署 OpenClaw 并配置 QQ Bot 的全过程，希望能帮到同样想折腾的朋友。 前言 你有没有想过，能在 QQ、微信、Telegram 等各种聊天软件里直接和 AI 对话？不是那种网页版的 ChatGPT，而是一个真正属于你的、部署在自己服务器上的 AI 助手？ O...</description>
       <category>技术实践</category>
       <category>AI</category>
@@ -43,9 +43,9 @@
     </item>
     <item>
       <title>基于大模型Agent的快递包裹检测与赔付决策系统</title>
-      <link>https://newzone.top/projects/AI_Agent/AgentProject.html</link>
-      <guid>https://newzone.top/projects/AI_Agent/AgentProject.html</guid>
-      <source url="https://newzone.top/rss.xml">基于大模型Agent的快递包裹检测与赔付决策系统</source>
+      <link>https://buterr04.github.io/projects/AI_Agent/AgentProject.html</link>
+      <guid>https://buterr04.github.io/projects/AI_Agent/AgentProject.html</guid>
+      <source url="https://buterr04.github.io/rss.xml">基于大模型Agent的快递包裹检测与赔付决策系统</source>
       <description>基于大模型Agent的快递包裹检测与赔付决策系统 仓库地址 GitHub 仓库 项目概述 本项目旨在利用多模态大模型，对破损快递包裹进行识别，获取破损程度，并结合快递公司赔付政策，利用增强检索（RAG）技术，快速检索相关条款并生成赔付结果。项目集成多模态大模型图像识别、数据向量化存储检索、Agent决策等技术，为物流行业提供智能化解决方案。 技术栈 项...</description>
       <category>技术实践</category>
       <pubDate>Wed, 10 Dec 2025 00:00:00 GMT</pubDate>
@@ -63,9 +63,9 @@
     </item>
     <item>
       <title>Coze Studio 扣子开源项目本地部署</title>
-      <link>https://newzone.top/projects/Coze.html</link>
-      <guid>https://newzone.top/projects/Coze.html</guid>
-      <source url="https://newzone.top/rss.xml">Coze Studio 扣子开源项目本地部署</source>
+      <link>https://buterr04.github.io/projects/Coze.html</link>
+      <guid>https://buterr04.github.io/projects/Coze.html</guid>
+      <source url="https://buterr04.github.io/rss.xml">Coze Studio 扣子开源项目本地部署</source>
       <description>Coze Studio 扣子开源项目本地部署 Coze Studio 扣子开源项目是一个基于 AI 的协同创作平台，旨在帮助用户更高效地进行内容创作和管理。Coze官方与2025.7.26日发布了Coze Studio的开源版本，支持本地部署。本文将实践如何在本地部署 Coze Studio 扣子开源项目。 1. 环境准备 操作系统：macOS 15 ...</description>
       <category>技术实践</category>
       <pubDate>Sat, 26 Jul 2025 00:00:00 GMT</pubDate>
@@ -129,18 +129,18 @@ docker compose --profile '*' up -d
     </item>
     <item>
       <title>📦 数码产品进销存管理系统实践</title>
-      <link>https://newzone.top/projects/Warehouse.html</link>
-      <guid>https://newzone.top/projects/Warehouse.html</guid>
-      <source url="https://newzone.top/rss.xml">📦 数码产品进销存管理系统实践</source>
+      <link>https://buterr04.github.io/projects/Warehouse.html</link>
+      <guid>https://buterr04.github.io/projects/Warehouse.html</guid>
+      <source url="https://buterr04.github.io/rss.xml">📦 数码产品进销存管理系统实践</source>
       <description>📦 数码产品进销存管理系统 仓库地址 GitHub 仓库链接 🧭 一、项目背景 在数码产品零售行业中，商品种类繁多、库存流转频繁、人工记录易错，管理难度极大。作为一家线下零售商，传统的手工管理方式已经难以满足日常运营的效率与准确性要求。因此，本项目旨在开发一套集采购、销售、库存管理于一体的进销存系统（WMS），实现企业信息化转型，提升运营效率。 �...</description>
       <category>学习笔记</category>
       <pubDate>Mon, 19 May 2025 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Flutter</title>
-      <link>https://newzone.top/tech/flutter.html</link>
-      <guid>https://newzone.top/tech/flutter.html</guid>
-      <source url="https://newzone.top/rss.xml">Flutter</source>
+      <link>https://buterr04.github.io/tech/flutter.html</link>
+      <guid>https://buterr04.github.io/tech/flutter.html</guid>
+      <source url="https://buterr04.github.io/rss.xml">Flutter</source>
       <description>Flutter Flutter是Google开发的一款软件包，能够构建高性能、高保真的移动应用。在更新之后可以支持Web、桌面应用和Android以及iOS设备，能够实现跨平台开发。 安装Flutter 下载Flutter SDK：访问Flutter官网下载适合你操作系统的Flutter SDK。 解压缩下载的文件到你希望安装Flutter的目录。 将...</description>
       <pubDate>Tue, 09 Dec 2025 06:14:39 GMT</pubDate>
       <content:encoded><![CDATA[
@@ -158,9 +158,9 @@ docker compose --profile '*' up -d
     </item>
     <item>
       <title>Redis（Remote Dictionary Server）</title>
-      <link>https://newzone.top/tech/redis.html</link>
-      <guid>https://newzone.top/tech/redis.html</guid>
-      <source url="https://newzone.top/rss.xml">Redis（Remote Dictionary Server）</source>
+      <link>https://buterr04.github.io/tech/redis.html</link>
+      <guid>https://buterr04.github.io/tech/redis.html</guid>
+      <source url="https://buterr04.github.io/rss.xml">Redis（Remote Dictionary Server）</source>
       <description>Redis（Remote Dictionary Server） Redis是一个开源的内存数据库，遵守 BSD 协议，它提供了一个高性能的键值（key-value）存储系统，常用于缓存、消息队列、会话存储等应用场景。通常用于处理高并发操作 一、为什么选择 Redis？ 相比传统数据库或文件系统，Redis 有以下优势： 🚀 超快的访问速度：所有数据存...</description>
       <pubDate>Thu, 10 Jul 2025 14:53:13 GMT</pubDate>
       <content:encoded><![CDATA[

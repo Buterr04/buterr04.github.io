@@ -1,13 +1,13 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="https://newzone.top/atom.xsl"?>
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="https://buterr04.github.io/atom.xsl"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN">
-  <id>https://newzone.top/</id>
+  <id>https://buterr04.github.io/</id>
   <title>Buterr的blog</title>
   <subtitle>这里是Buterr的个人博客，记录学习和生活点滴</subtitle>
-  <icon>https://newzone.top/favicon.ico</icon>
-  <updated>2026-06-08T04:03:16.726Z</updated>
+  <icon>https://buterr04.github.io/favicon.ico</icon>
+  <updated>2026-06-08T05:52:15.492Z</updated>
   <generator>@vuepress/plugin-feed</generator>
-  <link rel="self" href="https://newzone.top/atom.xml"/>
-  <link rel="alternate" href="https://newzone.top/"/>
+  <link rel="self" href="https://buterr04.github.io/atom.xml"/>
+  <link rel="alternate" href="https://buterr04.github.io/"/>
   <category term="技术实践"/>
   <category term="AI"/>
   <category term="学习笔记"/>
@@ -16,8 +16,8 @@
   </contributor>
   <entry>
     <title type="text">打造你的私人 AI 助手：OpenClaw 配置与使用指南</title>
-    <id>https://newzone.top/projects/OpenClaw.html</id>
-    <link href="https://newzone.top/projects/OpenClaw.html"/>
+    <id>https://buterr04.github.io/projects/OpenClaw.html</id>
+    <link href="https://buterr04.github.io/projects/OpenClaw.html"/>
     <updated>2026-06-02T10:15:16.000Z</updated>
     <summary type="html"><![CDATA[
 <blockquote>
@@ -58,8 +58,8 @@
   </entry>
   <entry>
     <title type="text">基于大模型Agent的快递包裹检测与赔付决策系统</title>
-    <id>https://newzone.top/projects/AI_Agent/AgentProject.html</id>
-    <link href="https://newzone.top/projects/AI_Agent/AgentProject.html"/>
+    <id>https://buterr04.github.io/projects/AI_Agent/AgentProject.html</id>
+    <link href="https://buterr04.github.io/projects/AI_Agent/AgentProject.html"/>
     <updated>2026-06-01T12:29:46.000Z</updated>
     <summary type="html"><![CDATA[
 <p>仓库地址</p>
@@ -92,8 +92,8 @@
   </entry>
   <entry>
     <title type="text">Coze Studio 扣子开源项目本地部署</title>
-    <id>https://newzone.top/projects/Coze.html</id>
-    <link href="https://newzone.top/projects/Coze.html"/>
+    <id>https://buterr04.github.io/projects/Coze.html</id>
+    <link href="https://buterr04.github.io/projects/Coze.html"/>
     <updated>2025-07-26T05:09:29.000Z</updated>
     <summary type="html"><![CDATA[
 <blockquote>
@@ -173,8 +173,8 @@ docker compose --profile '*' up -d
   </entry>
   <entry>
     <title type="text">📦 数码产品进销存管理系统实践</title>
-    <id>https://newzone.top/projects/Warehouse.html</id>
-    <link href="https://newzone.top/projects/Warehouse.html"/>
+    <id>https://buterr04.github.io/projects/Warehouse.html</id>
+    <link href="https://buterr04.github.io/projects/Warehouse.html"/>
     <updated>2026-02-04T06:13:07.000Z</updated>
     <summary type="html"><![CDATA[<hr>
 <h1>📦 数码产品进销存管理系统</h1>
@@ -196,8 +196,8 @@ docker compose --profile '*' up -d
   </entry>
   <entry>
     <title type="text">Flutter</title>
-    <id>https://newzone.top/tech/flutter.html</id>
-    <link href="https://newzone.top/tech/flutter.html"/>
+    <id>https://buterr04.github.io/tech/flutter.html</id>
+    <link href="https://buterr04.github.io/tech/flutter.html"/>
     <updated>2026-06-01T12:40:37.000Z</updated>
     <summary type="html"><![CDATA[
 <blockquote>
@@ -226,8 +226,8 @@ docker compose --profile '*' up -d
   </entry>
   <entry>
     <title type="text">Redis（Remote Dictionary Server）</title>
-    <id>https://newzone.top/tech/redis.html</id>
-    <link href="https://newzone.top/tech/redis.html"/>
+    <id>https://buterr04.github.io/tech/redis.html</id>
+    <link href="https://buterr04.github.io/tech/redis.html"/>
     <updated>2026-06-01T12:40:37.000Z</updated>
     <summary type="html"><![CDATA[
 <blockquote>
