@@ -15,6 +15,6 @@ export default navbar([
   {
     text: "AI 日报",
     icon: "fa-solid fa-fire",
-    link: "https://ai-trending.254490636.workers.dev",
+    link: "https://ai.buterr.site",
   },
 ]);
