@@ -6,7 +6,7 @@
     "enabled": true
   },
   "assets": {
-    "directory": ".vuepress/dist"
+    "directory": "docs/.vuepress/dist"
   },
   "compatibility_flags": [
     "nodejs_compat"
