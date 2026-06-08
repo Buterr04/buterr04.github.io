@@ -4,11 +4,11 @@ import sidebar from "./sidebar.js";
 
 export default hopeTheme({
   // 主题选项：https://theme-hope.vuejs.press/zh/config/theme/layout.html
-  hostname: "https://newzone.top",
+  hostname: "https://buterr04.github.io",
   iconAssets: ["fontawesome", "fontawesome-with-brands"],
   author: {
-    name: "LearnData",
-    url: "https://newzone.top",
+    name: "Buterr",
+    url: "https://github.com/Buterr04",
   },
 
   favicon: "/favicon.ico",
@@ -20,7 +20,7 @@ export default hopeTheme({
   // copyright 默认为 Copyright © <作者>
   copyright: `
   版权声明：自由转载 - 非商用 - 非衍生 - 保持署名<a href="https://creativecommons.org/licenses/by-nc-nd/4.0/deed.zh-hans" target="_blank" rel="noopener noreferrer">（创意共享 4.0 许可证）</a>|
-  Copyright © 2023-present LearnData</a>
+  Copyright © 2026-present Buterr</a>
   `,
   displayFooter: true,
   // 页脚，支持使用 HTMLString 以显示备案信息等
@@ -40,7 +40,7 @@ export default hopeTheme({
   fullscreen: true,
 
   // 默认为 GitHub. 同时也可以是一个完整的 URL
-  repo: "rockbenben/LearnData",
+  repo: "Buterr04/buterr04.github.io",
   // 自定义仓库链接文字。默认从 `repo` 中自动推断为 "GitHub" / "GitLab" / "Gitee" / "Bitbucket" 其中之一，或是 "Source"。
   repoLabel: "GitHub",
   // 是否在导航栏内显示仓库链接，默认为 `true`
@@ -72,7 +72,7 @@ export default hopeTheme({
     articleInfo: ["Date", "PageView", "Category", "Tag", "ReadingTime"],
     name: "Buterr",
     avatar: "https://avatars.githubusercontent.com/u/122344168?v=4",
-    description: "学生，热爱数据科学与编程，喜欢折腾各种新技术",
+    description: "BUPT 自动化 · AI 爱好者 · 喜欢折腾各种新技术",
     intro: "/intro.html",
     roundAvatar: true,
     medias: {
