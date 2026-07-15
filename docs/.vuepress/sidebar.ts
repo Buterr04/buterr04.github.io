@@ -44,6 +44,7 @@ export default sidebar({
         "redis.md",
         "go.md",
         "flutter.md",
+        "docker-to-orbstack.md",
       ],
     },
   ],
