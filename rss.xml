@@ -6,8 +6,8 @@
     <link>https://buterr04.github.io/</link>
     <description>这里是Buterr的个人博客，记录学习和生活点滴</description>
     <language>zh-CN</language>
-    <pubDate>Mon, 08 Jun 2026 05:55:50 GMT</pubDate>
-    <lastBuildDate>Mon, 08 Jun 2026 05:55:50 GMT</lastBuildDate>
+    <pubDate>Wed, 15 Jul 2026 14:04:38 GMT</pubDate>
+    <lastBuildDate>Wed, 15 Jul 2026 14:04:38 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>技术实践</category>
@@ -39,26 +39,6 @@
 <li>🔓 <strong>开源免费</strong>：MIT 协议，社区驱动</li>
 </ul>
 <p>用官方的话说：<em>"Any OS gateway for AI agents across Discord, Google Chat, iMessage, Matrix, Microsoft Teams, Signal, Slack, Telegram, WhatsApp, Zalo, and more."</em></p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>基于大模型Agent的快递包裹检测与赔付决策系统</title>
-      <link>https://buterr04.github.io/projects/AI_Agent/AgentProject.html</link>
-      <guid>https://buterr04.github.io/projects/AI_Agent/AgentProject.html</guid>
-      <source url="https://buterr04.github.io/rss.xml">基于大模型Agent的快递包裹检测与赔付决策系统</source>
-      <description>基于大模型Agent的快递包裹检测与赔付决策系统 仓库地址 GitHub 仓库 项目概述 本项目旨在利用多模态大模型，对破损快递包裹进行识别，获取破损程度，并结合快递公司赔付政策，利用增强检索（RAG）技术，快速检索相关条款并生成赔付结果。项目集成多模态大模型图像识别、数据向量化存储检索、Agent决策等技术，为物流行业提供智能化解决方案。 技术栈 项...</description>
-      <category>技术实践</category>
-      <pubDate>Wed, 10 Dec 2025 00:00:00 GMT</pubDate>
-      <content:encoded><![CDATA[
-<p>仓库地址</p>
-<ul>
-<li><a href="https://github.com/Buterr04/MyPackages_Checker" target="_blank" rel="noopener noreferrer">GitHub 仓库</a></li>
-</ul>
-<h2>项目概述</h2>
-<p>本项目旨在利用多模态大模型，对破损快递包裹进行识别，获取破损程度，并结合快递公司赔付政策，利用增强检索（RAG）技术，快速检索相关条款并生成赔付结果。项目集成多模态大模型图像识别、数据向量化存储检索、Agent决策等技术，为物流行业提供智能化解决方案。</p>
-<h2>技术栈</h2>
-<p>| 层级 | 技术 | 说明 |
-|</p>
 ]]></content:encoded>
     </item>
     <item>
@@ -137,6 +117,19 @@ docker compose --profile '*' up -d
       <pubDate>Mon, 19 May 2025 00:00:00 GMT</pubDate>
     </item>
     <item>
+      <title>从 Docker Desktop 迁移到 OrbStack：一次丝滑的容器体验升级</title>
+      <link>https://buterr04.github.io/tech/docker-to-orbstack.html</link>
+      <guid>https://buterr04.github.io/tech/docker-to-orbstack.html</guid>
+      <source url="https://buterr04.github.io/rss.xml">从 Docker Desktop 迁移到 OrbStack：一次丝滑的容器体验升级</source>
+      <description>从 Docker Desktop 迁移到 OrbStack：一次丝滑的容器体验升级 如果你也是 macOS 用户，并且正在使用 Docker Desktop 进行容器开发，那么 OrbStack 绝对值得你花 10 分钟来体验一下。本文将从安装、配置、迁移到踩坑，完整记录这次迁移的全过程。 一、为什么想换？ Docker Desktop 在 macOS...</description>
+      <pubDate>Wed, 15 Jul 2026 14:03:18 GMT</pubDate>
+      <content:encoded><![CDATA[
+<blockquote>
+<p>如果你也是 macOS 用户，并且正在使用 Docker Desktop 进行容器开发，那么 OrbStack 绝对值得你花 10 分钟来体验一下。本文将从安装、配置、迁移到踩坑，完整记录这次迁移的全过程。</p>
+</blockquote>
+]]></content:encoded>
+    </item>
+    <item>
       <title>Flutter</title>
       <link>https://buterr04.github.io/tech/flutter.html</link>
       <guid>https://buterr04.github.io/tech/flutter.html</guid>
@@ -176,6 +169,26 @@ docker compose --profile '*' up -d
 <li>📡 <strong>内置高可用机制</strong>：支持主从复制、哨兵、集群部署。</li>
 <li>🧠 <strong>广泛应用场景</strong>：从缓存到排行榜、分布式锁等，都能胜任。</li>
 </ul>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>基于大模型Agent的快递包裹检测与赔付决策系统</title>
+      <link>https://buterr04.github.io/projects/AI_Agent/AgentProject.html</link>
+      <guid>https://buterr04.github.io/projects/AI_Agent/AgentProject.html</guid>
+      <source url="https://buterr04.github.io/rss.xml">基于大模型Agent的快递包裹检测与赔付决策系统</source>
+      <description>基于大模型Agent的快递包裹检测与赔付决策系统 仓库地址 GitHub 仓库 项目概述 本项目旨在利用多模态大模型，对破损快递包裹进行识别，获取破损程度，并结合快递公司赔付政策，利用增强检索（RAG）技术，快速检索相关条款并生成赔付结果。项目集成多模态大模型图像识别、数据向量化存储检索、Agent决策等技术，为物流行业提供智能化解决方案。 技术栈 项...</description>
+      <category>技术实践</category>
+      <pubDate>Wed, 10 Dec 2025 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[
+<p>仓库地址</p>
+<ul>
+<li><a href="https://github.com/Buterr04/MyPackages_Checker" target="_blank" rel="noopener noreferrer">GitHub 仓库</a></li>
+</ul>
+<h2>项目概述</h2>
+<p>本项目旨在利用多模态大模型，对破损快递包裹进行识别，获取破损程度，并结合快递公司赔付政策，利用增强检索（RAG）技术，快速检索相关条款并生成赔付结果。项目集成多模态大模型图像识别、数据向量化存储检索、Agent决策等技术，为物流行业提供智能化解决方案。</p>
+<h2>技术栈</h2>
+<p>| 层级 | 技术 | 说明 |
+|</p>
 ]]></content:encoded>
     </item>
   </channel>

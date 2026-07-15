@@ -4,7 +4,7 @@
   <title>Buterr的blog</title>
   <subtitle>这里是Buterr的个人博客，记录学习和生活点滴</subtitle>
   <icon>https://buterr04.github.io/favicon.ico</icon>
-  <updated>2026-06-08T05:55:50.328Z</updated>
+  <updated>2026-07-15T14:04:38.163Z</updated>
   <generator>@vuepress/plugin-feed</generator>
   <link rel="self" href="https://buterr04.github.io/atom.xml"/>
   <link rel="alternate" href="https://buterr04.github.io/"/>
@@ -54,40 +54,6 @@
       <name>Buterr</name>
     </contributor>
     <published>2026-06-02T00:00:00.000Z</published>
-    <rights>Buterr</rights>
-  </entry>
-  <entry>
-    <title type="text">基于大模型Agent的快递包裹检测与赔付决策系统</title>
-    <id>https://buterr04.github.io/projects/AI_Agent/AgentProject.html</id>
-    <link href="https://buterr04.github.io/projects/AI_Agent/AgentProject.html"/>
-    <updated>2026-06-01T12:29:46.000Z</updated>
-    <summary type="html"><![CDATA[
-<p>仓库地址</p>
-<ul>
-<li><a href="https://github.com/Buterr04/MyPackages_Checker" target="_blank" rel="noopener noreferrer">GitHub 仓库</a></li>
-</ul>
-<h2>项目概述</h2>
-<p>本项目旨在利用多模态大模型，对破损快递包裹进行识别，获取破损程度，并结合快递公司赔付政策，利用增强检索（RAG）技术，快速检索相关条款并生成赔付结果。项目集成多模态大模型图像识别、数据向量化存储检索、Agent决策等技术，为物流行业提供智能化解决方案。</p>
-<h2>技术栈</h2>]]></summary>
-    <content type="html"><![CDATA[
-<p>仓库地址</p>
-<ul>
-<li><a href="https://github.com/Buterr04/MyPackages_Checker" target="_blank" rel="noopener noreferrer">GitHub 仓库</a></li>
-</ul>
-<h2>项目概述</h2>
-<p>本项目旨在利用多模态大模型，对破损快递包裹进行识别，获取破损程度，并结合快递公司赔付政策，利用增强检索（RAG）技术，快速检索相关条款并生成赔付结果。项目集成多模态大模型图像识别、数据向量化存储检索、Agent决策等技术，为物流行业提供智能化解决方案。</p>
-<h2>技术栈</h2>
-<p>| 层级 | 技术 | 说明 |
-|</p>
-]]></content>
-    <author>
-      <name>Buterr</name>
-    </author>
-    <category term="技术实践"/>
-    <contributor>
-      <name>Buterr</name>
-    </contributor>
-    <published>2025-12-10T00:00:00.000Z</published>
     <rights>Buterr</rights>
   </entry>
   <entry>
@@ -195,6 +161,32 @@ docker compose --profile '*' up -d
     <rights>Buterr</rights>
   </entry>
   <entry>
+    <title type="text">从 Docker Desktop 迁移到 OrbStack：一次丝滑的容器体验升级</title>
+    <id>https://buterr04.github.io/tech/docker-to-orbstack.html</id>
+    <link href="https://buterr04.github.io/tech/docker-to-orbstack.html"/>
+    <updated>2026-07-15T14:03:18.000Z</updated>
+    <summary type="html"><![CDATA[
+<blockquote>
+<p>如果你也是 macOS 用户，并且正在使用 Docker Desktop 进行容器开发，那么 OrbStack 绝对值得你花 10 分钟来体验一下。本文将从安装、配置、迁移到踩坑，完整记录这次迁移的全过程。</p>
+</blockquote>
+<hr>
+<h2>一、为什么想换？</h2>
+<p>Docker Desktop 在 macOS 上的痛点，相信不少人都有共鸣：</p>
+<ul>
+<li>🐢 <strong>启动慢</strong>：冷启动动辄几十秒，等待 VM 启动和 daemon 连接</li>
+<li>💰 <strong>收费</strong>：2021 年起对非个人/非小型企业用户开始收费，且功能被切割</li>
+<li>💾 <strong>内存占用高</strong>：即使空闲时，VM 也会常驻大量内存</li>
+<li>🔧 <strong>配置复杂</strong>：资源限制、网络配置、磁盘映射都需要手动调</li>
+<li>🐛 <strong>稳定性</strong>：时不时遇到 "connection refused"、镜像拉取失败等问题</li>
+</ul>]]></summary>
+    <content type="html"><![CDATA[
+<blockquote>
+<p>如果你也是 macOS 用户，并且正在使用 Docker Desktop 进行容器开发，那么 OrbStack 绝对值得你花 10 分钟来体验一下。本文将从安装、配置、迁移到踩坑，完整记录这次迁移的全过程。</p>
+</blockquote>
+]]></content>
+    <published>2026-07-15T14:03:18.000Z</published>
+  </entry>
+  <entry>
     <title type="text">Flutter</title>
     <id>https://buterr04.github.io/tech/flutter.html</id>
     <link href="https://buterr04.github.io/tech/flutter.html"/>
@@ -257,5 +249,39 @@ docker compose --profile '*' up -d
 </ul>
 ]]></content>
     <published>2025-07-10T14:53:13.000Z</published>
+  </entry>
+  <entry>
+    <title type="text">基于大模型Agent的快递包裹检测与赔付决策系统</title>
+    <id>https://buterr04.github.io/projects/AI_Agent/AgentProject.html</id>
+    <link href="https://buterr04.github.io/projects/AI_Agent/AgentProject.html"/>
+    <updated>2026-06-01T12:29:46.000Z</updated>
+    <summary type="html"><![CDATA[
+<p>仓库地址</p>
+<ul>
+<li><a href="https://github.com/Buterr04/MyPackages_Checker" target="_blank" rel="noopener noreferrer">GitHub 仓库</a></li>
+</ul>
+<h2>项目概述</h2>
+<p>本项目旨在利用多模态大模型，对破损快递包裹进行识别，获取破损程度，并结合快递公司赔付政策，利用增强检索（RAG）技术，快速检索相关条款并生成赔付结果。项目集成多模态大模型图像识别、数据向量化存储检索、Agent决策等技术，为物流行业提供智能化解决方案。</p>
+<h2>技术栈</h2>]]></summary>
+    <content type="html"><![CDATA[
+<p>仓库地址</p>
+<ul>
+<li><a href="https://github.com/Buterr04/MyPackages_Checker" target="_blank" rel="noopener noreferrer">GitHub 仓库</a></li>
+</ul>
+<h2>项目概述</h2>
+<p>本项目旨在利用多模态大模型，对破损快递包裹进行识别，获取破损程度，并结合快递公司赔付政策，利用增强检索（RAG）技术，快速检索相关条款并生成赔付结果。项目集成多模态大模型图像识别、数据向量化存储检索、Agent决策等技术，为物流行业提供智能化解决方案。</p>
+<h2>技术栈</h2>
+<p>| 层级 | 技术 | 说明 |
+|</p>
+]]></content>
+    <author>
+      <name>Buterr</name>
+    </author>
+    <category term="技术实践"/>
+    <contributor>
+      <name>Buterr</name>
+    </contributor>
+    <published>2025-12-10T00:00:00.000Z</published>
+    <rights>Buterr</rights>
   </entry>
 </feed>
